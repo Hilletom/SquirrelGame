@@ -4,7 +4,7 @@ package de.hsa.games.fatsquirrel;
 import de.hsa.games.fatsquirrel.console.UI;
 
 public abstract class Game extends Thread{
-	final int FPS = 100;
+	final int FPS = 1000;
 	long timestamp;
     long oldTimestamp;
 	public void run() {

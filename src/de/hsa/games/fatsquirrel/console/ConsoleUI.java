@@ -3,6 +3,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.reflect.Method;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import Command.Commands;
 import de.hsa.games.fatsquirrel.core.Board;
@@ -11,6 +13,7 @@ import de.hsa.games.fatsquirrel.core.MoveCommand;
 import de.hsa.games.fatsquirrel.util.ui.console.CommandScanner;
 
 public class ConsoleUI implements UI{
+    private static final Logger LOGGER = Logger.getLogger(ConsoleUI.class.getName());
 	int puffer;
 	private Commands commands;
 	private BufferedReader inputReader = new BufferedReader(new InputStreamReader(System.in));
@@ -54,6 +57,7 @@ public class ConsoleUI implements UI{
             puffer = (int)reval;
             return reval;
         }catch (NoSuchMethodException e1){
+            LOGGER.log(Level.SEVERE,"wie hast du das geschaft??? würde mich mal echt interessieren",e1);
             System.out.println("No Such Utils.Command");
             return null;
         } catch (Exception e) {
@@ -68,6 +72,7 @@ public class ConsoleUI implements UI{
             Object reval = method.invoke(commands, Arguments);
             return reval;
         }catch (NoSuchMethodException e1){
+            LOGGER.log(Level.WARNING, "Wrong Command",e1);
             System.out.println("No Such Utils.Command with arguments");
             return null;
         } catch (Exception e) {
