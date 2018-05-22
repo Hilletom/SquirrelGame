@@ -11,9 +11,6 @@ private int paralized=3;
 	public void nextstep(EntityContext context) {
 		if(!Stun()) {
 		context.tryMove(this, newPos());
-		if (true) {
-			System.out.println("M: "+getEnergy());
-		}
 		}
 	}
 private boolean Stun() {

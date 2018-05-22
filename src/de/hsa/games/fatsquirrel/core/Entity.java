@@ -23,7 +23,11 @@ public abstract class  Entity {
 		return energy;
 	}
 	public void updateenergy(int energyn) {
-		energy += energyn;
+		if((energy += energyn)<=0){
+			energy = 0;
+		}else {
+			energy += energyn;
+		}
 	}
 	
 	public String toString() {

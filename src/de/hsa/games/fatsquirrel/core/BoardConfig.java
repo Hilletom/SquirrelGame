@@ -2,9 +2,13 @@ package de.hsa.games.fatsquirrel.core;
 
 
 public class BoardConfig {
-	public final int xboard = 10;
-	final int yboard = 10;
+	public final int xboard = 20;
+	final int yboard = 20;
+<<<<<<< HEAD
 	final int countbb = 2;
+=======
+	final int countbb = 0;
+>>>>>>> b3379a1a8aa58d8a5db1938bcca4cf1885f34f77
 	final int countgb = 2;
 	final int countbp = 2;
 	final int countgp = 2;

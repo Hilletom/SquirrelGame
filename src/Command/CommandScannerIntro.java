@@ -6,7 +6,7 @@
 //import java.io.InputStreamReader;
 //import java.lang.reflect.Method;
 //
-//import de.hsa.games.fatsquirrel.UI;
+//import de.hsa.games.fatsquirrel.console.UI;
 //import de.hsa.games.fatsquirrel.core.Board;
 //import de.hsa.games.fatsquirrel.core.BoardView;
 //import de.hsa.games.fatsquirrel.core.MoveCommand;

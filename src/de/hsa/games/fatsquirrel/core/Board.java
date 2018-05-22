@@ -23,6 +23,25 @@ public class Board {
 			Wall wall = new Wall(Counter(), new XY (config.getXBoard(),i));
 			entityset.addentity(wall);
 		}
+
+/*doppelte wand für mini sprung problem
+		for(int i = 2; i<= config.getXBoard()-2; i++) {
+			Wall wall = new Wall(Counter(), new XY (i,2));
+			entityset.addentity(wall);
+		}
+		for(int i = 2; i<= config.getYBoard()-2; i++) {
+			Wall wall = new Wall(Counter(), new XY (2,i));
+			entityset.addentity(wall);
+		}
+		for(int i = 3; i< config.getXBoard()-2; i++) {
+			Wall wall = new Wall(Counter(), new XY (i,config.getYBoard()-2));
+			entityset.addentity(wall);
+		}
+		for(int i = 3; i<= config.getYBoard()-2; i++) {
+			Wall wall = new Wall(Counter(), new XY (config.getXBoard()-2,i));
+			entityset.addentity(wall);
+		}
+*/
 		for(int i=0; i<config.getPlayer();i++) {
 			PlaceHandOperatedMasterSquirrel();
 		}
@@ -161,13 +180,15 @@ public class Board {
 		}
 	}
 		private XY MiniPos(XY masterpos) {
+		int x = ranMiniPos(masterpos).getX();
+		int y = ranMiniPos(masterpos).getY();
 		for(Entity entity : entityset.getEntityArray()) {
 			if (entity != null) {
-				if(entity.getPosition().getX() == ranMiniPos(masterpos).getX() && entity.getPosition().getY() == ranMiniPos(masterpos).getY()) {
-				MiniPos(masterpos);
+				if(entity.getPosition().getX() == x && entity.getPosition().getY() == y ) {
+				return MiniPos(masterpos);
 				}						
 			}
-		}return new XY (ranMiniPos(masterpos).getX(),ranMiniPos(masterpos).getY());
+		}return new XY (x,y);
 	}
 
 }

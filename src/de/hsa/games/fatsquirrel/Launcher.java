@@ -1,6 +1,8 @@
 package de.hsa.games.fatsquirrel;
 import de.hsa.games.fatsquirrel.console.ConsoleUI;
+import de.hsa.games.fatsquirrel.console.FxUI;
 import de.hsa.games.fatsquirrel.console.GameImpl;
+import de.hsa.games.fatsquirrel.console.UI;
 import de.hsa.games.fatsquirrel.core.*;
 import javafx.application.Application;
 import javafx.event.EventHandler;
@@ -36,7 +38,7 @@ public class Launcher extends Application{
 		State state = new State(board);
 //		 ...
 		 
-	        FxUI fxUI = FxUI.createInstance(state.getflattenedboard().getSize());
+	        FxUI fxUI = FxUI.createInstance(state.getflattenedboard().getSize(),board);
 //	        final Game game = ...
 	         
 	        primaryStage.setScene(fxUI);

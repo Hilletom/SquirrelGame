@@ -2,17 +2,12 @@ package de.hsa.games.fatsquirrel.console;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.PrintStream;
 import java.lang.reflect.Method;
 
 import Command.Commands;
-import de.hsa.games.fatsquirrel.UI;
 import de.hsa.games.fatsquirrel.core.Board;
 import de.hsa.games.fatsquirrel.core.BoardView;
-import de.hsa.games.fatsquirrel.core.Entity;
-import de.hsa.games.fatsquirrel.core.HandOperatedMasterSquirrel;
 import de.hsa.games.fatsquirrel.core.MoveCommand;
-import de.hsa.games.fatsquirrel.util.ui.console.Command;
 import de.hsa.games.fatsquirrel.util.ui.console.CommandScanner;
 
 public class ConsoleUI implements UI{

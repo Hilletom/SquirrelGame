@@ -48,12 +48,10 @@ public class FlattenedBoard implements BoardView, EntityContext{
 			minisquirrel.paralized();
 			break;
 		case "MiniSquirrel":
-			if(minisquirrel.getmasterid()==((MiniSquirrel)target).getmasterid()) {
-				break;
-			}else {
+			if(minisquirrel.getmasterid()!=((MiniSquirrel)target).getmasterid()) {
 				kill(minisquirrel);
 				kill(target);
-			}
+			}break;
 		case "MasterSquirrel":
 		case "HandOperatedMasterSquirrel":
 			if(((MasterSquirrel)target).mini(minisquirrel)) {
