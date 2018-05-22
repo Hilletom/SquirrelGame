@@ -24,7 +24,7 @@ public class Board {
 			entityset.addentity(wall);
 		}
 
-
+/*Doppelte wand
 		for(int i = 2; i<= config.getXBoard()-2; i++) {
 			Wall wall = new Wall(Counter(), new XY (i,2));
 			entityset.addentity(wall);
@@ -41,7 +41,7 @@ public class Board {
 			Wall wall = new Wall(Counter(), new XY (config.getXBoard()-2,i));
 			entityset.addentity(wall);
 		}
-
+*/
 		for(int i=0; i<config.getPlayer();i++) {
 			PlaceHandOperatedMasterSquirrel();
 		}
