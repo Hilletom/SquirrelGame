@@ -1,20 +1,17 @@
-package de.hsa.games.fatsquirrel;
+package de.hsa.games.fatsquirrel.console;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 
-import de.hsa.games.fatsquirrel.console.GameCommandType;
 import de.hsa.games.fatsquirrel.core.Board;
 import de.hsa.games.fatsquirrel.core.BoardView;
 import de.hsa.games.fatsquirrel.core.Entity;
 import de.hsa.games.fatsquirrel.core.HandOperatedMasterSquirrel;
 import de.hsa.games.fatsquirrel.core.MoveCommand;
 import de.hsa.games.fatsquirrel.core.XY;
-import de.hsa.games.fatsquirrel.util.ui.console.Command;
 import de.hsa.games.fatsquirrel.util.ui.console.CommandScanner;
 import javafx.application.Platform;
-import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.scene.Parent;
 import javafx.scene.Scene;

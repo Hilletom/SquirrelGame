@@ -1,7 +1,6 @@
 package de.hsa.games.fatsquirrel.console;
 
 import de.hsa.games.fatsquirrel.Game;
-import de.hsa.games.fatsquirrel.UI;
 import de.hsa.games.fatsquirrel.core.*;
 
 

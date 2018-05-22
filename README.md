@@ -24,3 +24,4 @@ solved Problems
 - fixed mini suicide
 - fixed fx control (move, help, exit, spawn mini, energy)
 
+
