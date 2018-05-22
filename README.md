@@ -1,9 +1,7 @@
 # SquirrelGame
 
 Fehler
-- MiniSquirrel wird in aussenewände gespawned obwohl der code nur auf freien pos spawnen darf
-- bei laufen des minisquirrels in äußere wand (wird kontrolliert ob das feld frei ist) wirft java.lang.ArrayIndexOutOfBoundsException: -1 aus
-- MiniSquirrel springt 'komisch' vermutlich wird nur jeder zweite schritt ausgeführt ( siehe energieausgabe m mini)
+- bei laufen des minisquirrels in äußere wand (wird kontrolliert ob das feld frei ist) wirft java.lang.ArrayIndexOutOfBoundsException: -1 aus, da das MiniSquirrel 'komisch' springt da es versucht einen doppelten schritt(confirmed) auszuführen ( siehe energieausgabe m mini)
 
 wäre gut ToDo
 - Idee wie fx eingabe menge an übergebener energie an MiniSquirerl
@@ -17,6 +15,7 @@ ToDo
 - junit (aufgabe 7)
 
 solved Problems
+- fixed minisquirrel spawned in außenwänden
 - fixed mastersquirrel negaativ energy
 - fixed mini always spawned with 1000 energy
 - fixed colours fxui
