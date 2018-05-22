@@ -13,7 +13,12 @@ public class MiniSquirrel extends MasterSquirrel {
     public void nextstep(EntityContext context) {
 
         if (!Stun()) {
+<<<<<<< HEAD
             context.tryMove(this, MiniMove(context, xyns.randomizer()));          //miniSquirrel immer noch geistig behindert (suicid) verbindung mit bot?
+=======
+//            context.tryMove(this, MiniMove(context, xyns.randomizer()));          //miniSquirrel immer noch geistig behindert (suicid) verbindung mit bot?
+            context.tryMove(this, xyns.randomizer());
+>>>>>>> b3379a1a8aa58d8a5db1938bcca4cf1885f34f77
             updateenergy(-1);
         }
         if (getEnergy() <= 0) {
@@ -28,7 +33,11 @@ public class MiniSquirrel extends MasterSquirrel {
         return masterid;
     }
 
+<<<<<<< HEAD
     private boolean Stun() {
+=======
+    public boolean Stun() {
+>>>>>>> b3379a1a8aa58d8a5db1938bcca4cf1885f34f77
         if (paralized >= 3) {
             return false;
         } else {
