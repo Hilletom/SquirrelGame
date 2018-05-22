@@ -28,9 +28,6 @@ public class CommandScanner {
 		case "exit":
 			command = new Command(GameCommandType.EXIT, splittinput);
 		    break;
-		case "all":
-			command = new Command(GameCommandType.ALL, splittinput);
-			 break;
 		case "a":
 			command = new Command(GameCommandType.LEFT, splittinput);
 		    break;

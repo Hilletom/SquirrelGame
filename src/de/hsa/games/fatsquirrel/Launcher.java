@@ -36,7 +36,7 @@ public class Launcher extends Application{
 		State state = new State(board);
 //		 ...
 		 
-	        FxUI fxUI = FxUI.createInstance(state.getflattenedboard().getSize());
+	        FxUI fxUI = FxUI.createInstance(state.getflattenedboard().getSize(),board);
 //	        final Game game = ...
 	         
 	        primaryStage.setScene(fxUI);
