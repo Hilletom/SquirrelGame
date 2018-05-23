@@ -9,5 +9,4 @@ public interface ControllerContext {
 	public void move(XY direction);
 	public void spawnMiniBot(XY direction, int energy);
 	public int getEnergy();
-
 }

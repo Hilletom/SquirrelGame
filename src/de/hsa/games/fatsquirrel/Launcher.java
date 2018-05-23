@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
 public class Launcher extends Application{
-	static boolean fx = false;
+	static boolean fx = true;
 	public static void main(String[]args) {
 		
 		if(fx) {

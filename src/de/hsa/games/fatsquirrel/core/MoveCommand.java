@@ -41,5 +41,27 @@ public class MoveCommand {
 			case 5:
 				return new XY(x, y);
 			} return new XY(x, y);
-		}		
+		}
+		public static int getMoveInput(XY direction){
+			if(direction.getX() == 0 && direction.getY() == 0){
+				return 5;
+			}else if(direction.getX() == 0 && direction.getY() == 1){
+				return 2;
+			}else if(direction.getX() == 1 && direction.getY() == 1){
+				return 3;
+			}else if(direction.getX() == 1 && direction.getY() == 0){
+				return 6;
+			}else if(direction.getX() == 1 && direction.getY() == -1){
+				return 9;
+			}else if(direction.getX() == 0 && direction.getY() == -1){
+				return 8;
+			}else if(direction.getX() == -1 && direction.getY() == -1){
+				return 7;
+			}else if(direction.getX() == -1 && direction.getY() == 0){
+			    return 4;
+			}else if(direction.getX() == -1 && direction.getY() == 1){
+                return 1;
+			}
+			return 5;
+		}
 	}
