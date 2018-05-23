@@ -1,8 +1,8 @@
 package de.hsa.games.fatsquirrel.console;
 
-import de.hsa.games.fatsquirrel.core.Board;
-import de.hsa.games.fatsquirrel.core.BoardView;
-import de.hsa.games.fatsquirrel.core.MoveCommand;
+import de.hsa.games.fatsquirrel.core.board.Board;
+import de.hsa.games.fatsquirrel.core.board.BoardView;
+import de.hsa.games.fatsquirrel.core.utils.MoveCommand;
 
 public interface UI {
 	public void render (BoardView view);

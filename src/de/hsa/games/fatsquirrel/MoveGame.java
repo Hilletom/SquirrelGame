@@ -1,7 +1,7 @@
 package de.hsa.games.fatsquirrel;
 
 import de.hsa.games.fatsquirrel.console.UI;
-import de.hsa.games.fatsquirrel.core.Board;
+import de.hsa.games.fatsquirrel.core.board.Board;
 
 public class MoveGame extends Thread{
 	UI ui;

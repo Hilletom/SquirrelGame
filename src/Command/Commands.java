@@ -7,9 +7,9 @@ import java.lang.reflect.Parameter;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.hsa.games.fatsquirrel.core.Board;
-import de.hsa.games.fatsquirrel.core.Entity;
-import de.hsa.games.fatsquirrel.core.HandOperatedMasterSquirrel;
+import de.hsa.games.fatsquirrel.core.board.Board;
+import de.hsa.games.fatsquirrel.core.entities.Entity;
+import de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel;
 
 public class Commands {
 

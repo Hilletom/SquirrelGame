@@ -4,7 +4,7 @@ package de.hsa.games.fatsquirrel;
 import de.hsa.games.fatsquirrel.console.UI;
 
 public abstract class Game extends Thread{
-	final int FPS = 1000;
+	final int FPS = 10;
 	long timestamp;
     long oldTimestamp;
 	public void run() {
@@ -24,8 +24,8 @@ public abstract class Game extends Thread{
 	        }
 	    }
 	
-	protected de.hsa.games.fatsquirrel.core.State state;
-	public Game (de.hsa.games.fatsquirrel.core.State state, UI ui) {
+	protected de.hsa.games.fatsquirrel.core.utils.State state;
+	public Game (de.hsa.games.fatsquirrel.core.utils.State state, UI ui) {
 		this.state = state;
 	}
 	protected abstract void render();

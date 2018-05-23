@@ -7,9 +7,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import Command.Commands;
-import de.hsa.games.fatsquirrel.core.Board;
-import de.hsa.games.fatsquirrel.core.BoardView;
-import de.hsa.games.fatsquirrel.core.MoveCommand;
+import de.hsa.games.fatsquirrel.core.board.Board;
+import de.hsa.games.fatsquirrel.core.board.BoardView;
+import de.hsa.games.fatsquirrel.core.utils.MoveCommand;
 import de.hsa.games.fatsquirrel.util.ui.console.CommandScanner;
 
 public class ConsoleUI implements UI{

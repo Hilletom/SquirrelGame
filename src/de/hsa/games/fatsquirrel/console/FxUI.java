@@ -4,12 +4,12 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 
-import de.hsa.games.fatsquirrel.core.Board;
-import de.hsa.games.fatsquirrel.core.BoardView;
-import de.hsa.games.fatsquirrel.core.Entity;
-import de.hsa.games.fatsquirrel.core.HandOperatedMasterSquirrel;
-import de.hsa.games.fatsquirrel.core.MoveCommand;
-import de.hsa.games.fatsquirrel.core.XY;
+import de.hsa.games.fatsquirrel.core.board.Board;
+import de.hsa.games.fatsquirrel.core.board.BoardView;
+import de.hsa.games.fatsquirrel.core.entities.Entity;
+import de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel;
+import de.hsa.games.fatsquirrel.core.utils.MoveCommand;
+import de.hsa.games.fatsquirrel.core.utils.XY;
 import de.hsa.games.fatsquirrel.util.ui.console.CommandScanner;
 import javafx.application.Platform;
 import javafx.event.EventHandler;
