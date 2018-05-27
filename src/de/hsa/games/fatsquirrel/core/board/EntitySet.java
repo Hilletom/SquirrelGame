@@ -6,7 +6,11 @@ import de.hsa.games.fatsquirrel.core.entities.Character;
 import de.hsa.games.fatsquirrel.core.entities.Entity;
 import de.hsa.games.fatsquirrel.core.entities.EntityContext;
 
+import java.util.logging.Logger;
+import java.util.logging.Level;
+
 public class EntitySet {
+	private static final Logger LOGGER = Logger.getLogger(EntitySet.class.getName());
 	BoardConfig boardconfig = new BoardConfig();
 	private Entity[] entityarray = new Entity[boardconfig.getXBoard()*boardconfig.getYBoard()];
 	public Entity [] getEntityArray() {
@@ -17,6 +21,7 @@ public class EntitySet {
 		for (int j = 0; j <= entityarray.length; j++) {
 			if(entityarray[j] == null) {
 				entityarray[j] = entity;
+				LOGGER.log( Level.FINER, "New Entity"+ entityarray[j] );
 				return;
 			}
 			
@@ -26,14 +31,15 @@ public class EntitySet {
 	public void removeentity (Entity entity, Entity[] entityarray) {
 		for (int j = 0; j <= entityarray.length; j++) {
 				if(entityarray[j] == entity) {
+					LOGGER.log( Level.FINER, "Removet Entity"+ entityarray[j] );
 					entityarray[j] = null;
 					return;
 	}}}
 	public void EntitytoString() {
 		for (int g = 0; g <= entityarray.length; g++) {
 			if(entityarray[g] != null) {
-		System.out.println(entityarray[g]);
-		
+				System.out.println(entityarray[g]);
+
 		}else {
 			break;
 		}

@@ -44,6 +44,7 @@ public class ConsoleUI implements UI{
                 execCommand(p[0],p[1]);
             }
         } catch (IOException e) {
+
             e.printStackTrace();
         }
 		
@@ -57,7 +58,7 @@ public class ConsoleUI implements UI{
             puffer = (int)reval;
             return reval;
         }catch (NoSuchMethodException e1){
-            LOGGER.log(Level.SEVERE,"wie hast du das geschaft??? würde mich mal echt interessieren",e1);
+            LOGGER.log(Level.FINE,"No Such Utils.Command",e1);
             System.out.println("No Such Utils.Command");
             return null;
         } catch (Exception e) {
@@ -72,7 +73,7 @@ public class ConsoleUI implements UI{
             Object reval = method.invoke(commands, Arguments);
             return reval;
         }catch (NoSuchMethodException e1){
-            LOGGER.log(Level.WARNING, "Wrong Command",e1);
+            LOGGER.log(Level.FINE, "No Such Utils.Command with arguments",e1);
             System.out.println("No Such Utils.Command with arguments");
             return null;
         } catch (Exception e) {

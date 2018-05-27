@@ -3,8 +3,11 @@ package de.hsa.games.fatsquirrel.core.playerBased;
 import de.hsa.games.fatsquirrel.core.entities.EntityContext;
 import de.hsa.games.fatsquirrel.core.entities.EntityEnum;
 import de.hsa.games.fatsquirrel.core.utils.XY;
+import java.util.logging.Logger;
+import java.util.logging.Level;
 
 public class MiniSquirrel extends MasterSquirrel {
+    private static final Logger LOGGER = Logger.getLogger(MiniSquirrel.class.getName());
     private int masterid;
     private int paralized = 2;
     XY xyns = new XY(getPosition());
@@ -13,6 +16,8 @@ public class MiniSquirrel extends MasterSquirrel {
         super(id, xy, energy);
         this.masterid = masterid;
         this.type = EntityEnum.miniSquirell;
+        LOGGER.log( Level.FINEST, "HandOperatedMasterSquirrel is stuned"+getEnergy());
+
     }
 
     public void nextstep(EntityContext context) {
@@ -27,6 +32,7 @@ public class MiniSquirrel extends MasterSquirrel {
             context.kill(this);
         }
         if (true) {
+
             System.out.println("m: " + getEnergy());
         }
     }
@@ -40,6 +46,7 @@ public class MiniSquirrel extends MasterSquirrel {
         if (paralized >= 3) {
             return false;
         } else {
+            LOGGER.log( Level.FINEST, "MiniSquirrel is stuned"+getId());
             System.out.println("mini is stuned");
             paralized++;
             return true;

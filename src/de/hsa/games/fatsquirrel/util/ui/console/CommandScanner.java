@@ -2,15 +2,19 @@ package de.hsa.games.fatsquirrel.util.ui.console;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.logging.Logger;
+import java.util.logging.Level;
 
 import de.hsa.games.fatsquirrel.console.GameCommandType;
 
 public class CommandScanner {
+	private static final Logger LOGGER = Logger.getLogger(CommandScanner.class.getName());
 	private BufferedReader inputReader;
 	public CommandScanner(BufferedReader inputReader) {
 			this.inputReader = inputReader;
 	}
 	@SuppressWarnings("null")
+
 	public Command next() {
 		String input ="";
 		try {
@@ -20,6 +24,7 @@ public class CommandScanner {
 		}
 		
 		String[] splittinput = input.split(" ");
+		LOGGER.log( Level.INFO , "New Entity" +splittinput);
 		Command command = null;
 		switch(splittinput[0]) {
 		case "help":
@@ -48,6 +53,7 @@ public class CommandScanner {
 			command = new Command(GameCommandType.MASTER_ENERGY, splittinput);
 			break;
 		default:
+			LOGGER.log( Level.WARNING , "Wrong Command");
 			System.err.println("Wrong command!");
 			command = next();
 			break;

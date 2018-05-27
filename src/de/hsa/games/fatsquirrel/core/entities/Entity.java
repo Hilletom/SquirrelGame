@@ -32,7 +32,7 @@ public abstract class  Entity {
 			energy += energyn;
 		}
 	}
-	
+
 	public String toString() {
 		XY xys =  new XY(getXy());
 		return "ID: " + id +" Type: "+ this.getClass().getName() +" x: "+ xys.getX() + " y: "+ xys.getY() + " Energy: " + energy;

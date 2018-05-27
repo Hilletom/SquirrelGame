@@ -2,6 +2,7 @@ package de.hsa.games.fatsquirrel.core.board;
 
 
 public class BoardConfig {
+
 	public final int xboard = 20;
 	final int yboard = 20;
 	final int countbb = 2;
@@ -11,7 +12,10 @@ public class BoardConfig {
 	final int countw = 2;
 	final int player = 1;
 	final int bot = 0;
-	
+
+
+
+
 	public int getXBoard() {
 		return xboard;
 	}

@@ -8,8 +8,10 @@ import de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel;
 import de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel;
 import de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity;
 import de.hsa.games.fatsquirrel.core.utils.XY;
-
+import java.util.logging.Logger;
+import java.util.logging.Level;
 public class FlattenedBoard implements BoardView, EntityContext {
+	private static final Logger LOGGER = Logger.getLogger(FlattenedBoard.class.getName());
 	private Board board;
 	private Entity[][] map;
 	
@@ -37,6 +39,9 @@ public class FlattenedBoard implements BoardView, EntityContext {
 	@Override
 	public void tryMove(MiniSquirrel minisquirrel, XY direction) {
 		Entity target = map[direction.getX()][direction.getY()];
+		LOGGER.log(Level.FINEST,"MiniSquirrel" + minisquirrel.getId() + " tries to move from "
+				+ minisquirrel.getPosition().toString()
+				+ " in a direction of " + direction.toString());
 		switch(getEntityType(direction)) {
 		case "BadBeast":
 			minisquirrel.updateenergy(target.getEnergy());

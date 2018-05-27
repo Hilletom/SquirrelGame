@@ -10,14 +10,18 @@ import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-
+import java.util.logging.Logger;
+import java.util.logging.Level;
 public class Launcher extends Application{
+	private static final Logger LOGGER = Logger.getLogger(Launcher.class.getName());
 	static boolean fx = true;
 	public static void main(String[]args) {
 		
 		if(fx) {
+			LOGGER.log( Level.INFO, "Start FXUI" );
 			Application.launch(args);
-		}else {		
+		}else {
+			LOGGER.log( Level.INFO, "Start ConsoleUI" );
 	    UI ui = new ConsoleUI();
 		Board board = new Board(new BoardConfig());
 		State state = new State(board);

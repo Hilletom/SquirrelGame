@@ -3,6 +3,8 @@ package de.hsa.games.fatsquirrel.console;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
+import java.util.logging.Logger;
+import java.util.logging.Level;
 
 import de.hsa.games.fatsquirrel.core.board.Board;
 import de.hsa.games.fatsquirrel.core.board.BoardView;
@@ -23,6 +25,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 
 public class FxUI extends Scene implements UI {
+    private static final Logger LOGGER = Logger.getLogger(FxUI.class.getName());
     private static final int CELL_SIZE = 30;
     Canvas boardCanvas;
     Label msgLabel;
@@ -90,6 +93,7 @@ public class FxUI extends Scene implements UI {
 
 
                     default:
+                        LOGGER.log(Level.FINE,"Wrong Command");
                         break;
                 }
             }
