@@ -93,7 +93,7 @@ public class FxUI extends Scene implements UI {
 
 
                     default:
-                        LOGGER.log(Level.FINE,"Wrong Command");
+                        LOGGER.fine("Wrong Command");
                         break;
                 }
             }

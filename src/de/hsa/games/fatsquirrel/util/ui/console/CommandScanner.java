@@ -24,7 +24,7 @@ public class CommandScanner {
 		}
 		
 		String[] splittinput = input.split(" ");
-		LOGGER.log( Level.INFO , "New Entity" +splittinput);
+		LOGGER.info( "New Entity" +splittinput);
 		Command command = null;
 		switch(splittinput[0]) {
 		case "help":
@@ -53,7 +53,7 @@ public class CommandScanner {
 			command = new Command(GameCommandType.MASTER_ENERGY, splittinput);
 			break;
 		default:
-			LOGGER.log( Level.WARNING , "Wrong Command");
+			LOGGER.warning( "Wrong Command");
 			System.err.println("Wrong command!");
 			command = next();
 			break;

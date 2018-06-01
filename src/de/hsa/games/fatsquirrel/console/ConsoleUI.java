@@ -58,7 +58,7 @@ public class ConsoleUI implements UI{
             puffer = (int)reval;
             return reval;
         }catch (NoSuchMethodException e1){
-            LOGGER.log(Level.FINE,"No Such Utils.Command",e1);
+            LOGGER.fine ("No Such Utils.Command");
             System.out.println("No Such Utils.Command");
             return null;
         } catch (Exception e) {
@@ -73,7 +73,7 @@ public class ConsoleUI implements UI{
             Object reval = method.invoke(commands, Arguments);
             return reval;
         }catch (NoSuchMethodException e1){
-            LOGGER.log(Level.FINE, "No Such Utils.Command with arguments",e1);
+            LOGGER.fine("No Such Utils.Command with arguments");
             System.out.println("No Such Utils.Command with arguments");
             return null;
         } catch (Exception e) {

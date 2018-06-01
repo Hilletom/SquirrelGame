@@ -18,10 +18,10 @@ public class Launcher extends Application{
 	public static void main(String[]args) {
 		
 		if(fx) {
-			LOGGER.log( Level.INFO, "Start FXUI" );
+			LOGGER.info( "Start FXUI" );
 			Application.launch(args);
 		}else {
-			LOGGER.log( Level.INFO, "Start ConsoleUI" );
+			LOGGER.info( "Start ConsoleUI" );
 	    UI ui = new ConsoleUI();
 		Board board = new Board(new BoardConfig());
 		State state = new State(board);

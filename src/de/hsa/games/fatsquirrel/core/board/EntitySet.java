@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 import java.util.logging.Level;
 
 public class EntitySet {
-	private static final Logger LOGGER = Logger.getLogger(EntitySet.class.getName());
+	private static final Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 	BoardConfig boardconfig = new BoardConfig();
 	private Entity[] entityarray = new Entity[boardconfig.getXBoard()*boardconfig.getYBoard()];
 	public Entity [] getEntityArray() {
@@ -21,7 +21,7 @@ public class EntitySet {
 		for (int j = 0; j <= entityarray.length; j++) {
 			if(entityarray[j] == null) {
 				entityarray[j] = entity;
-				LOGGER.log( Level.FINER, "New Entity"+ entityarray[j] );
+				LOGGER.finer ( "New Entity"+ entityarray[j] );
 				return;
 			}
 			
@@ -31,7 +31,7 @@ public class EntitySet {
 	public void removeentity (Entity entity, Entity[] entityarray) {
 		for (int j = 0; j <= entityarray.length; j++) {
 				if(entityarray[j] == entity) {
-					LOGGER.log( Level.FINER, "Removet Entity"+ entityarray[j] );
+					LOGGER.finer( "Removet Entity"+ entityarray[j] );
 					entityarray[j] = null;
 					return;
 	}}}

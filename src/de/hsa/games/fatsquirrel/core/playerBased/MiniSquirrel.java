@@ -16,7 +16,7 @@ public class MiniSquirrel extends MasterSquirrel {
         super(id, xy, energy);
         this.masterid = masterid;
         this.type = EntityEnum.miniSquirell;
-        LOGGER.log( Level.FINEST, "HandOperatedMasterSquirrel is stuned"+getEnergy());
+        LOGGER.finest( "HandOperatedMasterSquirrel is stuned"+getEnergy());
 
     }
 
@@ -46,7 +46,7 @@ public class MiniSquirrel extends MasterSquirrel {
         if (paralized >= 3) {
             return false;
         } else {
-            LOGGER.log( Level.FINEST, "MiniSquirrel is stuned"+getId());
+            LOGGER.finest( "MiniSquirrel is stuned"+getId());
             System.out.println("mini is stuned");
             paralized++;
             return true;
