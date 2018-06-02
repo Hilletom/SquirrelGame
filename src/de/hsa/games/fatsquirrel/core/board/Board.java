@@ -1,5 +1,6 @@
 package de.hsa.games.fatsquirrel.core.board;
 
+import de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot;
 import de.hsa.games.fatsquirrel.core.entities.*;
 import de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel;
 import de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel;
@@ -49,9 +50,16 @@ public class Board {
 			entityset.addentity(wall);
 		}
 */
+        for(int i=0; i<config.getPlayer();i++) {
+            PlaceMasterBot();
+        }
+        /**
+         * Kein Handoperated
 		for(int i=0; i<config.getPlayer();i++) {
 			PlaceHandOperatedMasterSquirrel();
 		}
+         */
+
 		for(int i=0; i<config.getBot();i++) {
 			PlaceMasterSquirrel();
 		}
@@ -102,6 +110,10 @@ public class Board {
 	public void PlaceBadBeast() {
 		BadBeast badbeast = new BadBeast(Counter(), RandomPos());
 		entityset.addentity(badbeast);
+	}
+	public void PlaceMasterBot() {
+		MasterSquirrelBot masterSquirrelBot = new MasterSquirrelBot(counter, RandomPos(),this.entityset);
+		entityset.addentity(masterSquirrelBot);
 	}
 	
 	public void PlaceGoodBeast() {

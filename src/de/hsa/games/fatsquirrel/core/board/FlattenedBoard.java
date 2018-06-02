@@ -1,9 +1,6 @@
 package de.hsa.games.fatsquirrel.core.board;
 
-import de.hsa.games.fatsquirrel.core.entities.BadBeast;
-import de.hsa.games.fatsquirrel.core.entities.Entity;
-import de.hsa.games.fatsquirrel.core.entities.EntityContext;
-import de.hsa.games.fatsquirrel.core.entities.GoodBeast;
+import de.hsa.games.fatsquirrel.core.entities.*;
 import de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel;
 import de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel;
 import de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity;
@@ -231,16 +228,10 @@ public class FlattenedBoard implements BoardView, EntityContext {
 
 	@Override
 	public String getEntityType(XY xy) {
-		return getEntityTyp(xy.getX(),xy.getY());
-	}
-
-
-	@Override
-	public String getEntityTyp(int x, int y) {
-		if(map[x][y] == null) {
+		if(map[xy.getX()][xy.getY()] == null) {
 			return "null";
 		}
-		String name = map[x][y].getClass().getSimpleName();
+        String name = map[xy.getX()][xy.getY()].getClass().getSimpleName();
 		switch(name) {
 		case "BadBeast":
 			return "BadBeast";
@@ -262,6 +253,16 @@ public class FlattenedBoard implements BoardView, EntityContext {
 			return null;
 		}
 	}
+
+
+	@Override
+	public EntityEnum getEntityTyp(int x, int y) {
+		if(map[x][y] == null) {
+			return null;
+		}
+        String name = map[x][y].getClass().getSimpleName();
+		return EntityEnum.getEntityByString(name);
+	}
 	
 	public String toString() {
 		String view = "";
@@ -269,26 +270,25 @@ public class FlattenedBoard implements BoardView, EntityContext {
 			String line = "";
 			for (int x= 0; x<map.length;x++) {
 				switch(getEntityTyp(x,y)) {
-				case "MasterSquirrel":
-				case "HandOperatedMasterSquirrel":
+				    case masterSquirell:
 					line += "M";
 					break;
-				case "BadBeast":
+                    case badBeast:
 					line += "B";
 					break;
-				case "GoodBeast":
+                    case goodBeast:
 					line += "G";
 					break;
-				case "BadPlant":
+                    case badPlant:
 					line += "b";
 					break;
-				case "GoodPlant":
+                    case goodPlant:
 					line += "g";
 					break;
-				case "Wall":
+				case wall:
 					line += "X";
 					break;
-				case "MiniSquirrel":
+                    case miniSquirell:
 					line += "m";
 					break;
 				default:

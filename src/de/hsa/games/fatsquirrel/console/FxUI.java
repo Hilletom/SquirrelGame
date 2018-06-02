@@ -9,6 +9,7 @@ import java.util.logging.Level;
 import de.hsa.games.fatsquirrel.core.board.Board;
 import de.hsa.games.fatsquirrel.core.board.BoardView;
 import de.hsa.games.fatsquirrel.core.entities.Entity;
+import de.hsa.games.fatsquirrel.core.entities.EntityEnum;
 import de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel;
 import de.hsa.games.fatsquirrel.core.utils.MoveCommand;
 import de.hsa.games.fatsquirrel.core.utils.XY;
@@ -120,7 +121,13 @@ public class FxUI extends Scene implements UI {
         XY viewSize = view.getSize();
         for (int x2 = 0; x2 < viewSize.getX(); x2++) {
             for (int y2 = 0; y2 < viewSize.getY(); y2++) {
-                String type = view.getEntityTyp(x2, y2);
+                EntityEnum type = view.getEntityTyp(x2, y2);
+
+                if(type == null){
+                    gc.fill();
+                    continue;
+                }
+
                 if (x2 == 0) {
                     x = 0;
                 } else {
@@ -132,38 +139,37 @@ public class FxUI extends Scene implements UI {
                     y = y2 * CELL_SIZE;
                 }
                 switch (type) {
-                    case "BadBeast": {
+                    case badBeast: {
                         gc.setFill(Color.RED);
                         gc.fillOval(x, y, CELL_SIZE, CELL_SIZE);
                         break;
                     }
-                    case "GoodBeast": {
+                    case goodBeast: {
                         gc.setFill(Color.GREEN);
                         gc.fillOval(x, y, CELL_SIZE, CELL_SIZE);
                         break;
                     }
-                    case "BadPlant": {
+                    case badPlant: {
                         gc.setFill(Color.RED);
                         gc.fillRect(x, y, CELL_SIZE, CELL_SIZE);
                         break;
                     }
-                    case "GoodPlant": {
+                    case goodPlant: {
                         gc.setFill(Color.GREEN);
                         gc.fillRect(x, y, CELL_SIZE, CELL_SIZE);
                         break;
                     }
-                    case "HandOperatedMasterSquirrel":
-                    case "MasterSquirrel": {
+                    case masterSquirell: {
                         gc.setFill(Color.BLUE);
                         gc.fillOval(x, y, CELL_SIZE, CELL_SIZE);
                         break;
                     }
-                    case "MiniSquirrel": {
+                    case miniSquirell: {
                         gc.setFill(Color.BLUE);
                         gc.fillRect(x, y, CELL_SIZE, CELL_SIZE);
                         break;
                     }
-                    case "Wall": {
+                    case wall: {
                         gc.setFill(Color.ORANGE);
                         gc.fillRect(x, y, CELL_SIZE, CELL_SIZE);
                         break;
