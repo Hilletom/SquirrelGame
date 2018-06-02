@@ -24,7 +24,7 @@ private boolean Stun() {
 	if (paralized>=3) {
 	return false;
 	}else {
-		LOGGER.log( Level.FINEST, "HandOperatedMasterSquirrel is stuned"+getId());
+		LOGGER.finest( "HandOperatedMasterSquirrel is stuned"+getId());
 		System.out.println("you are stuned");
 		paralized++;
 		return true;

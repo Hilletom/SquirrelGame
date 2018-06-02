@@ -3,6 +3,7 @@ package de.hsa.games.fatsquirrel.console;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
+import java.util.Optional;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 
@@ -21,6 +22,7 @@ import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextInputDialog;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
@@ -91,18 +93,42 @@ public class FxUI extends Scene implements UI {
                         }
                         break;
                     }
+                    case SPACE:
+                        if ((int) 100 < getHandOperatedMasterSquirrel(board).getEnergy()) {
+                        displaySpawnMini();
+                        } else {
+                            System.out.println("not enough energy");
+                        }
+                        break;
 
 
                     default:
-                        LOGGER.log(Level.FINE,"Wrong Command");
+                        LOGGER.fine("Wrong Command");
                         break;
                 }
+                keyEvent.consume();
             }
 
+            private void displaySpawnMini() {
+                TextInputDialog dialog = new TextInputDialog("100");
+                dialog.setTitle("Spawn MiniSquirrel");
+                dialog.setHeaderText("MiniSquirrel is going to be spawned");
+                dialog.setContentText("Please enter MiniSquirrel's Energy:");
 
-        });
+                Optional<String> result = dialog.showAndWait();
+                if (result.isPresent()){
+                    int energy = Integer.parseInt(result.get());
+                    if (energy>= 100) {
+                        LOGGER.fine("Mini from player with Energy " + energy + " is spawned");
+                        board.spawnMini(energy, (HandOperatedMasterSquirrel) getHandOperatedMasterSquirrel(board));
+                    }
+                    }
+                }
+            }
+        );
         return fxUI;
     }
+
 
 
     @Override

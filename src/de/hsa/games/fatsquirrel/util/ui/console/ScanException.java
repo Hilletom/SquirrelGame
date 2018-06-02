@@ -7,7 +7,7 @@ public class ScanException extends Exception {
 	ScanException(){
 
 		super("Wrong Command");
-		LOGGER.log( Level.WARNING , "Wrong Command");
+		LOGGER.warning( "Wrong Command");
 	}
 	ScanException(String string){
 

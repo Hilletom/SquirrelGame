@@ -18,7 +18,7 @@ public class MasterSquirrel extends PlayerEntity {
 	public MasterSquirrel(int id, XY xy, int energy) {
 		super(id, xy, energy);
 		this.type = EntityEnum.masterSquirell;
-		LOGGER.log( Level.FINEST, "HandOperatedMasterSquirrel: "+getEnergy()+ "ID: "+ getId());
+		LOGGER.finest( "HandOperatedMasterSquirrel: "+getEnergy()+ "ID: "+ getId());
 	}
 
 	static final int senergy = 1000;
@@ -32,7 +32,7 @@ private boolean Stun() {
 	if (paralized>=3) {
 	return true;
 	}else {
-		LOGGER.log( Level.FINEST, "MasterSquirrel is stuned"+getId());
+		LOGGER.finest( "MasterSquirrel is stuned"+getId());
 		paralized++;
 		return false;
 	}

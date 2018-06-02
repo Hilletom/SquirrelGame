@@ -3,9 +3,11 @@ import de.hsa.games.fatsquirrel.console.ConsoleUI;
 import de.hsa.games.fatsquirrel.console.FxUI;
 import de.hsa.games.fatsquirrel.console.GameImpl;
 import de.hsa.games.fatsquirrel.console.UI;
+import de.hsa.games.fatsquirrel.core.Logging.MyLogger;
 import de.hsa.games.fatsquirrel.core.board.Board;
 import de.hsa.games.fatsquirrel.core.board.BoardConfig;
 import de.hsa.games.fatsquirrel.core.utils.State;
+
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.stage.Stage;
@@ -15,13 +17,14 @@ import java.util.logging.Level;
 public class Launcher extends Application{
 	private static final Logger LOGGER = Logger.getLogger(Launcher.class.getName());
 	static boolean fx = true;
-	public static void main(String[]args) {
-		
+
+	public static void main(String[]args) throws Exception {
+		MyLogger.setup();
 		if(fx) {
-			LOGGER.log( Level.INFO, "Start FXUI" );
+			LOGGER.info( "Start FXUI" );
 			Application.launch(args);
 		}else {
-			LOGGER.log( Level.INFO, "Start ConsoleUI" );
+			LOGGER.info( "Start ConsoleUI" );
 	    UI ui = new ConsoleUI();
 		Board board = new Board(new BoardConfig());
 		State state = new State(board);

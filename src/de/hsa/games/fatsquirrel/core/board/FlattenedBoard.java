@@ -36,7 +36,7 @@ public class FlattenedBoard implements BoardView, EntityContext {
 	@Override
 	public void tryMove(MiniSquirrel minisquirrel, XY direction) {
 		Entity target = map[direction.getX()][direction.getY()];
-		LOGGER.log(Level.FINEST,"MiniSquirrel" + minisquirrel.getId() + " tries to move from "
+		LOGGER.finest("MiniSquirrel" + minisquirrel.getId() + " tries to move from "
 				+ minisquirrel.getPosition().toString()
 				+ " in a direction of " + direction.toString());
 		switch(getEntityType(direction)) {
