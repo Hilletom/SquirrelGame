@@ -50,21 +50,18 @@ public class Board {
 			entityset.addentity(wall);
 		}
 */
-        for(int i=0; i<config.getPlayer();i++) {
-            PlaceMasterBot();
-        }
 
-        /**
-         * Kein Handoperated
+
+
 		for(int i=0; i<config.getPlayer();i++) {
 			PlaceHandOperatedMasterSquirrel();
 		}
 
 
 		for(int i=0; i<config.getBot();i++) {
-			PlaceMasterSquirrel();
+			PlaceMasterBot();
 		}
-		 */
+
 
 		for(int i=0; i<config.getCountBB();i++) {
 			PlaceBadBeast();
