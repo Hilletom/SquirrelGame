@@ -20,7 +20,7 @@ private int paralized=3;
 		context.tryMove(this, newPos());
 		}
 	}
-private boolean Stun() {
+protected boolean Stun() {
 	if (paralized>=3) {
 	return false;
 	}else {
