@@ -8,7 +8,6 @@ public enum EntityEnum {
     badPlant, goodPlant, badBeast, goodBeast, masterSquirell, miniSquirell, wall;
 
     public static int getDanger(EntityEnum entityEnum){
-
         switch(entityEnum){
             case wall:
                 return 1;
