@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed36a707-6fe3-44d8-b759-e73d092ad0a0" name="Default" comment="" />
+    <list default="true" id="ed36a707-6fe3-44d8-b759-e73d092ad0a0" name="Default" comment="fixed merge v3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/Board.class" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/Board.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/BoardConfig.class" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/BoardConfig.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/FlattenedBoard.class" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/FlattenedBoard.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/bots/MasterSquirrelBot.class" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/bots/MasterSquirrelBot.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/bots/MiniSquirrelBot$ControllerContextImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/bots/MiniSquirrelBot.class" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/bots/MiniSquirrelBot.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.class" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,66 +21,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Launcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/Launcher.java">
+      <file leaf-file-name="ControllerContextImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/ControllerContextImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1280">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="688">
+              <caret line="186" column="40" lean-forward="false" selection-start-line="186" selection-start-column="40" selection-end-line="186" selection-end-column="40" />
+              <folding>
+                <element signature="e#6352#6353#0" expanded="true" />
+                <element signature="e#6434#6435#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiniSquirrelBot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MiniSquirrelBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1734">
+              <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyHtmlFormatter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Logging/MyHtmlFormatter.java">
+      <file leaf-file-name="MiniSquirrel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/MiniSquirrel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2079">
-              <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2445#2446#0" expanded="true" />
-                <element signature="e#2496#2497#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1428">
+              <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLogger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Logging/MyLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FxUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/console/FxUI.java">
+      <file leaf-file-name="MasterSquirrelBot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MasterSquirrelBot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
-              <caret line="107" column="35" lean-forward="true" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+              <caret line="140" column="9" lean-forward="false" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
               <folding>
-                <element signature="e#5165#5166#0" expanded="true" />
-                <element signature="e#5221#5222#0" expanded="true" />
-                <element signature="e#7830#7831#0" expanded="true" />
-                <element signature="e#7876#7877#0" expanded="true" />
+                <marker date="1528120511431" expanded="true" signature="3812:3840" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="XY.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/utils/XY.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomTactic.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/tactics/RandomTactic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tactic1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/tactics/Tactic1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/Character.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +128,16 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/de/hsa/games/fatsquirrel</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -97,9 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/console/GameCommandType.java" />
-        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/console/UI.java" />
-        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/MiniSquirrel.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/BoardConfig.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/botapi/Bots/MasterSquirellBot.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/botapi/ControllerContextImpl.java" />
@@ -112,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Entities/Entity.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Entities/GoodBeast.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Entities/GoodPlant.java" />
-        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/Board.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardView.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/Character.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/EntityContext.java" />
@@ -127,15 +174,11 @@
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/GoodBeast.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/GoodPlant.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/Wall.java" />
-        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MasterSquirrelBot.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/Game.java" />
-        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardConfig.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/Entity.java" />
         <option value="$PROJECT_DIR$/src/Command/CommandScannerIntro.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/EntitySet.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/console/ConsoleUI.java" />
-        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/FlattenedBoard.java" />
-        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/MasterSquirrel.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/MiniSquirrel.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/util/ui/console/CommandScanner.java" />
@@ -148,6 +191,14 @@
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Logging/MyLogger.java" />
         <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/console/FxUI.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/ControllerContextImpl.java" />
+        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.java" />
+        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/FlattenedBoard.java" />
+        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardConfig.java" />
+        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/Board.java" />
+        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MiniSquirrelBot.java" />
+        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MasterSquirrelBot.java" />
+        <option value="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/tactics/RandomTactic.java" />
       </list>
     </option>
   </component>
@@ -160,11 +211,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="43" />
+    <option name="width" value="2560" />
+    <option name="height" value="1397" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -184,128 +234,116 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="botapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="console" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="board" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="bots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+              <item name="tactics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="Logging" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="playerBased" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="SquirrelGameNew1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGameNew1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Logging übung" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -440,6 +478,9 @@
       <workItem from="1527869469028" duration="1899000" />
       <workItem from="1527874881694" duration="57000" />
       <workItem from="1527882940128" duration="2309000" />
+      <workItem from="1528097901569" duration="3607000" />
+      <workItem from="1528109329237" duration="1034000" />
+      <workItem from="1528119054423" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="removed test">
       <created>1526738918788</created>
@@ -508,26 +549,25 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27704000" />
+    <option name="totallyTimeSpent" value="33920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2762" height="1770" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="43" width="2560" height="1397" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32783642" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30540898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276481" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30520648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29305136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20809716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -583,7 +623,8 @@
     <MESSAGE value="fixed head and tail merge problem" />
     <MESSAGE value="fixed head 2" />
     <MESSAGE value="fixed merge v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed merge v3" />
+    <MESSAGE value="Mini Bot fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mini Bot fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -592,27 +633,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/botapi/Bots/MiniSquirellBot.java" />
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/botapi/ControllerContextImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MiniSquirrelBot.java" />
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/util/ui/consoletest/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/util/ui/consoletest/CommandScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/Character.java" />
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/EntityEnum.java" />
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/BadPlant.java" />
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/GoodBeast.java" />
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/GoodPlant.java" />
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/Wall.java" />
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/Timer.java" />
@@ -627,13 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/botapi/ControllerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -686,48 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3036">
-          <caret line="96" column="11" lean-forward="false" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/EntitySet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/FlattenedBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7351">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MasterSquirrelBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -763,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/MiniSquirrel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/MasterSquirrel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -784,24 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/utils/XY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/util/ui/console/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -844,44 +794,29 @@
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Logging/LoggingProxyFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Logging/MyHtmlFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2079">
+        <state relative-caret-position="2142">
           <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-            <element signature="e#2496#2497#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Logging/MyLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
+        <state relative-caret-position="816">
           <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1280">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/console/FxUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="107" column="35" lean-forward="true" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
-          <folding>
-            <element signature="e#5165#5166#0" expanded="true" />
-            <element signature="e#5221#5222#0" expanded="true" />
-            <element signature="e#7830#7831#0" expanded="true" />
-            <element signature="e#7876#7877#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2788">
+          <caret line="107" column="17" lean-forward="false" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -889,10 +824,1593 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="198">
-            <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-            <folding />
+            <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/FlattenedBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="83" lean-forward="false" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/botapi/ControllerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="56" column="10" lean-forward="false" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl</OriginalElement>
+          <nodes>
+            <node x="0.0" y="674.0">de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl</node>
+            <node x="175.5" y="0.0">de.hsa.games.fatsquirrel.botapi.ControllerContext</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl" target="de.hsa.games.fatsquirrel.botapi.ControllerContext">
+              <point x="0.0" y="-383.5" />
+              <point x="0.0" y="312.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-570.0" y="685.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/EntitySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="83" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/entities/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/utils/XYSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/utils/XY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">de</node>
+            <node x="" y="">images</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">org</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">Command</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="419.0" y="394.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/de.hsa.games.fatsquirrel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>de.hsa.games.fatsquirrel</OriginalElement>
+          <nodes>
+            <node x="4953.890164644182" y="9954.0">de.hsa.games.fatsquirrel.Game</node>
+            <node x="4291.586462684041" y="2628.0">de.hsa.games.fatsquirrel.core.entities.GoodBeast</node>
+            <node x="770.228284714276" y="9212.0">de.hsa.games.fatsquirrel.console.GameCommandType</node>
+            <node x="5405.922237237246" y="1814.0">de.hsa.games.fatsquirrel.core.entities.EntityEnum</node>
+            <node x="8286.750108225107" y="4184.5">de.hsa.games.fatsquirrel.core.bots.tactics.RandomTactic</node>
+            <node x="9901.29209916799" y="925.0">de.hsa.games.fatsquirrel.util.ui.consoletest.CommandScanner</node>
+            <node x="10679.982575358466" y="0.0">de.hsa.games.fatsquirrel.core.Logging.MyHtmlFormatter</node>
+            <node x="2328.1916666666666" y="4160.5">de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot</node>
+            <node x="5721.003758199125" y="6217.0">de.hsa.games.fatsquirrel.core.board.EntitySet</node>
+            <node x="497.8493414719196" y="10769.0">de.hsa.games.fatsquirrel.console.ConsoleUI</node>
+            <node x="11563.982575358466" y="0.0">de.hsa.games.fatsquirrel.util.ui.consoletest.ScanException</node>
+            <node x="5821.774126825932" y="697.0">de.hsa.games.fatsquirrel.core.entities.Entity</node>
+            <node x="4886.769796017374" y="10957.5">de.hsa.games.fatsquirrel.console.GameImpl</node>
+            <node x="145.25" y="9447.5">de.hsa.games.fatsquirrel.util.ui.console.Command</node>
+            <node x="260.41666666666697" y="10071.5">de.hsa.games.fatsquirrel.util.ui.console.CommandScanner</node>
+            <node x="7629.804003929896" y="2746.0">de.hsa.games.fatsquirrel.core.entities.Wall</node>
+            <node x="6491.774126825932" y="2511.0">de.hsa.games.fatsquirrel.botapi.ControllerContext</node>
+            <node x="308.08333333333303" y="8554.5">de.hsa.games.fatsquirrel.util.ui.console.CommandTypeInfo</node>
+            <node x="4756.586462684041" y="2581.0">de.hsa.games.fatsquirrel.core.entities.BadBeast</node>
+            <node x="6539.922237237246" y="3460.5">de.hsa.games.fatsquirrel.botapi.BotController</node>
+            <node x="2222.216366025125" y="7358.5">de.hsa.games.fatsquirrel.core.board.BoardView</node>
+            <node x="3713.0387354113145" y="5370.0">de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl</node>
+            <node x="7271.954651056267" y="4703.0">de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot.ControllerContextImpl</node>
+            <node x="4201.575466111647" y="1462.0">de.hsa.games.fatsquirrel.core.entities.Character</node>
+            <node x="2540.8910081385866" y="9447.5">de.hsa.games.fatsquirrel.console.UI</node>
+            <node x="9202.982575358466" y="250.0">de.hsa.games.fatsquirrel.util.ui.consoletest.MyFavoriteCommandType</node>
+            <node x="8643.982575358466" y="2746.0">de.hsa.games.fatsquirrel.core.entities.GoodPlant</node>
+            <node x="10018.732575358466" y="0.0">de.hsa.games.fatsquirrel.util.ui.consoletest.CommandTypeInfo</node>
+            <node x="2863.1637354113145" y="2025.5">de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity</node>
+            <node x="1825.1916666666666" y="2533.5">de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel</node>
+            <node x="11136.982575358466" y="0.0">de.hsa.games.fatsquirrel.core.entities.EntityType</node>
+            <node x="6282.166774891775" y="4796.5">de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot</node>
+            <node x="14.821428571428442" y="1391.0">de.hsa.games.fatsquirrel.core.utils.MoveCommand</node>
+            <node x="3475.555303030303" y="3225.0">de.hsa.games.fatsquirrel.core.entities.EntityContext</node>
+            <node x="5040.419796017374" y="9376.0">de.hsa.games.fatsquirrel.core.utils.State</node>
+            <node x="6441.037984389601" y="6864.0">de.hsa.games.fatsquirrel.core.board.Board</node>
+            <node x="7936.500108225107" y="2746.0">de.hsa.games.fatsquirrel.core.entities.BadPlant</node>
+            <node x="6023.922237237246" y="4184.5">de.hsa.games.fatsquirrel.core.bots.tactics.Tactic1</node>
+            <node x="9887.399242025132" y="1177.0">de.hsa.games.fatsquirrel.util.ui.consoletest.MyFavoriteCommandsProzessor</node>
+            <node x="8169.250108225107" y="10934.5">de.hsa.games.fatsquirrel.core.Logging.MyLogger</node>
+            <node x="6732.904380094388" y="4161.0">de.hsa.games.fatsquirrel.botapi.BotControllerFactory</node>
+            <node x="3339.6397518259328" y="0.0">de.hsa.games.fatsquirrel.core.utils.XY</node>
+            <node x="7922.679003929896" y="5512.5">de.hsa.games.fatsquirrel.core.board.BoardConfig</node>
+            <node x="1189.5160081385866" y="10628.0">de.hsa.games.fatsquirrel.console.FxUI</node>
+            <node x="6354.005361493564" y="11636.0">de.hsa.games.fatsquirrel.Launcher</node>
+            <node x="6693.037984389601" y="10071.5">de.hsa.games.fatsquirrel.MoveGame</node>
+            <node x="10045.982575358466" y="462.0">de.hsa.games.fatsquirrel.util.ui.consoletest.Command</node>
+            <node x="2824.407261987004" y="4773.0">de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel</node>
+            <node x="102.84934147191962" y="10981.5">de.hsa.games.fatsquirrel.util.ui.console.ScanException</node>
+            <node x="11983.982575358466" y="0.0">de.hsa.games.fatsquirrel.core.utils.XYSupport</node>
+            <node x="2952.4416666666666" y="3972.0">de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel</node>
+            <node x="4659.523497977515" y="8177.0">de.hsa.games.fatsquirrel.core.board.FlattenedBoard</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.Character" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="-83.4375" y="100.5" />
+              <point x="4340.637966111647" y="1794.0" />
+              <point x="3706.6553030303035" y="1794.0" />
+              <point x="3706.6553030303035" y="3205.0" />
+              <point x="3713.6053030303033" y="3205.0" />
+              <point x="-26.449999999999818" y="-288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.BadPlant" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="118.125" y="-77.0" />
+              <point x="8212.125108225107" y="2481.0" />
+              <point x="9048.482575358466" y="2481.0" />
+              <point x="9048.482575358466" y="567.0" />
+              <point x="3581.8897518259328" y="567.0" />
+              <point x="72.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.core.board.BoardConfig">
+              <point x="157.2307692307695" y="-218.5" />
+              <point x="6133.734527429894" y="6177.0" />
+              <point x="7942.679003929896" y="6177.0" />
+              <point x="-100.0" y="241.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.console.ScanException" target="de.hsa.games.fatsquirrel.util.ui.console.CommandScanner">
+              <point x="0.0" y="-100.5" />
+              <point x="290.3493414719196" y="10608.0" />
+              <point x="314.21666666666624" y="10608.0" />
+              <point x="-215.20000000000073" y="124.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.GoodBeast" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-127.14285714285688" y="-195.0" />
+              <point x="4386.943605541184" y="2451.0" />
+              <point x="3536.7893939393944" y="2451.0" />
+              <point x="3536.7893939393944" y="667.0" />
+              <point x="3496.8897518259328" y="667.0" />
+              <point x="-12.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot">
+              <point x="78.61538461538476" y="-218.5" />
+              <point x="6055.119142814509" y="6157.0" />
+              <point x="6721.537984389601" y="6157.0" />
+              <point x="6721.537984389601" y="5350.0" />
+              <point x="6567.541774891775" y="5350.0" />
+              <point x="-95.125" y="195.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="-159.10714285714312" y="-571.5" />
+              <point x="6578.930841532458" y="6734.0" />
+              <point x="4503.5387354113145" y="6734.0" />
+              <point x="4503.5387354113145" y="3902.0" />
+              <point x="3884.32803030303" y="3902.0" />
+              <point x="144.27272727272702" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.consoletest.MyFavoriteCommandsProzessor" target="de.hsa.games.fatsquirrel.util.ui.consoletest.Command">
+              <point x="203.99999999999997" y="-147.5" />
+              <point x="10363.399242025132" y="1152.0" />
+              <point x="10449.79209916799" y="1152.0" />
+              <point x="10449.79209916799" y="900.0" />
+              <point x="10536.8159086918" y="900.0" />
+              <point x="196.33333333333394" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.BadBeast" target="de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity">
+              <point x="-190.71428571428623" y="-242.0" />
+              <point x="4788.372176969755" y="2431.0" />
+              <point x="3292.1637354113145" y="2431.0" />
+              <point x="198.0" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel">
+              <point x="-39.0" y="-383.5" />
+              <point x="4064.0387354113145" y="5300.0" />
+              <point x="3391.907261987004" y="5300.0" />
+              <point x="3391.907261987004" y="4653.0" />
+              <point x="3305.8166666666666" y="4653.0" />
+              <point x="96.375" y="265.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.ConsoleUI" target="de.hsa.games.fatsquirrel.core.board.BoardView">
+              <point x="78.0" y="-313.0" />
+              <point x="848.8493414719196" y="10518.0" />
+              <point x="2409.091366025125" y="10518.0" />
+              <point x="2409.091366025125" y="8157.0" />
+              <point x="2283.591366025125" y="8157.0" />
+              <point x="-184.125" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.GameImpl" target="de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel">
+              <point x="-153.85714285714312" y="-124.5" />
+              <point x="4912.412653160231" y="10508.0" />
+              <point x="2211.716366025125" y="10508.0" />
+              <point x="2211.716366025125" y="6834.0" />
+              <point x="3048.2229166666666" y="6834.0" />
+              <point x="3048.2229166666666" y="5350.0" />
+              <point x="3033.282261987004" y="5350.0" />
+              <point x="-69.625" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="49.59375" y="-477.5" />
+              <point x="4973.617247977515" y="8047.0" />
+              <point x="5341.487504350707" y="8047.0" />
+              <point x="5341.487504350707" y="1291.0" />
+              <point x="5950.702698254503" y="1291.0" />
+              <point x="-61.07142857142935" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.console.GameCommandType">
+              <point x="-27.41666666666606" y="-454.0" />
+              <point x="1491.0993414719205" y="10458.0" />
+              <point x="1312.478284714276" y="10458.0" />
+              <point x="180.75" y="336.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot" target="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel">
+              <point x="-285.3749999999998" y="-195.0" />
+              <point x="6377.291774891775" y="4633.0" />
+              <point x="3434.3166666666666" y="4633.0" />
+              <point x="224.875" y="265.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel" target="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel">
+              <point x="-140.18181818181802" y="-265.5" />
+              <point x="3069.2598484848486" y="3842.0" />
+              <point x="2022.646212121212" y="3842.0" />
+              <point x="2022.646212121212" y="3205.0" />
+              <point x="2197.6462121212116" y="3205.0" />
+              <point x="131.45454545454504" y="289.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.consoletest.CommandScanner" target="de.hsa.games.fatsquirrel.util.ui.consoletest.MyFavoriteCommandType">
+              <point x="-179.33333333333394" y="-101.0" />
+              <point x="9990.958765834655" y="900.0" />
+              <point x="9820.232575358466" y="900.0" />
+              <point x="205.75" y="312.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.EntityContext" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-79.34999999999945" y="-288.5" />
+              <point x="3660.7053030303036" y="3165.0" />
+              <point x="3528.2893939393944" y="3165.0" />
+              <point x="3528.2893939393944" y="677.0" />
+              <point x="3488.3897518259328" y="677.0" />
+              <point x="-21.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="219.090909090909" y="289.5" />
+              <point x="2285.2825757575756" y="3185.0" />
+              <point x="3554.9053030303035" y="3185.0" />
+              <point x="-185.14999999999964" y="-288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot" target="de.hsa.games.fatsquirrel.core.bots.tactics.RandomTactic">
+              <point x="285.375" y="-195.0" />
+              <point x="6948.041774891775" y="4653.0" />
+              <point x="8658.000108225107" y="4653.0" />
+              <point x="123.75" y="53.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.tactics.RandomTactic" target="de.hsa.games.fatsquirrel.botapi.ControllerContext">
+              <point x="-61.875" y="-53.0" />
+              <point x="8472.375108225107" y="3902.0" />
+              <point x="7533.204651056267" y="3902.0" />
+              <point x="7533.204651056267" y="3195.0" />
+              <point x="6885.024126825932" y="3195.0" />
+              <point x="178.75" y="312.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot">
+              <point x="351.0" y="-383.5" />
+              <point x="4454.0387354113145" y="5350.0" />
+              <point x="6377.291774891775" y="5350.0" />
+              <point x="-285.375" y="195.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="348.7916666666665" y="-195.0" />
+              <point x="7011.458441558441" y="4663.0" />
+              <point x="9093.482575358466" y="4663.0" />
+              <point x="9093.482575358466" y="517.0" />
+              <point x="3624.3897518259328" y="517.0" />
+              <point x="114.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.EntityContext" target="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel">
+              <point x="-144.27272727272702" y="288.5" />
+              <point x="3595.782575757576" y="3902.0" />
+              <point x="3349.6234848484846" y="3902.0" />
+              <point x="140.18181818181802" y="-265.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.GoodBeast" target="de.hsa.games.fatsquirrel.core.entities.Character">
+              <point x="0.0" y="-195.0" />
+              <point x="4514.086462684041" y="1794.0" />
+              <point x="4396.262966111647" y="1794.0" />
+              <point x="-27.8125" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.EntityContext" target="de.hsa.games.fatsquirrel.core.entities.GoodBeast">
+              <point x="26.449999999999818" y="-288.5" />
+              <point x="3766.505303030303" y="3165.0" />
+              <point x="4336.086462684041" y="3165.0" />
+              <point x="-178.0" y="195.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.GoodPlant" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="124.875" y="-77.0" />
+              <point x="8935.357575358466" y="2491.0" />
+              <point x="9056.982575358466" y="2491.0" />
+              <point x="9056.982575358466" y="557.0" />
+              <point x="3590.3897518259328" y="557.0" />
+              <point x="80.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.entities.Wall">
+              <point x="53.035714285714675" y="-571.5" />
+              <point x="6791.073698675315" y="6734.0" />
+              <point x="7758.704651056267" y="6734.0" />
+              <point x="7758.704651056267" y="3205.0" />
+              <point x="7824.804003929896" y="3205.0" />
+              <point x="65.0" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="-39.30769230769238" y="-218.5" />
+              <point x="5937.196065891432" y="6197.0" />
+              <point x="5969.422237237246" y="6197.0" />
+              <point x="5969.422237237246" y="1341.0" />
+              <point x="6018.559841111646" y="1341.0" />
+              <point x="6.785714285713766" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="82.65625" y="-477.5" />
+              <point x="5006.679747977515" y="8057.0" />
+              <point x="5693.140987237246" y="8057.0" />
+              <point x="5693.140987237246" y="2491.0" />
+              <point x="5659.984737237246" y="2491.0" />
+              <point x="-16.9375" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Launcher" target="de.hsa.games.fatsquirrel.console.UI">
+              <point x="-152.0" y="-147.5" />
+              <point x="6449.005361493564" y="11596.0" />
+              <point x="2663.7035081385866" y="11596.0" />
+              <point x="-73.6875" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.BoardView" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="122.75" y="-77.0" />
+              <point x="2590.466366025125" y="6844.0" />
+              <point x="5583.722508199125" y="6844.0" />
+              <point x="5583.722508199125" y="2491.0" />
+              <point x="5626.109737237246" y="2491.0" />
+              <point x="-50.8125" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.console.CommandScanner" target="de.hsa.games.fatsquirrel.console.GameCommandType">
+              <point x="179.33333333333394" y="-124.5" />
+              <point x="708.7500000000009" y="9934.0" />
+              <point x="950.978284714276" y="9934.0" />
+              <point x="-180.75" y="336.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel">
+              <point x="27.41666666666606" y="-454.0" />
+              <point x="1545.9326748052526" y="10508.0" />
+              <point x="1503.728284714276" y="10508.0" />
+              <point x="1503.728284714276" y="6824.0" />
+              <point x="2941.554747977515" y="6824.0" />
+              <point x="2941.554747977515" y="5350.0" />
+              <point x="2894.032261987004" y="5350.0" />
+              <point x="-208.875" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Game" target="de.hsa.games.fatsquirrel.core.utils.State">
+              <point x="113.0" y="-242.0" />
+              <point x="5236.390164644182" y="9934.0" />
+              <point x="5199.119796017374" y="9934.0" />
+              <point x="-105.80000000000018" y="172.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl">
+              <point x="-196.5384615384619" y="-218.5" />
+              <point x="5779.965296660663" y="6187.0" />
+              <point x="4103.0387354113145" y="6187.0" />
+              <point x="0.0" y="383.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="0.0" y="-289.5" />
+              <point x="2066.1916666666666" y="2491.0" />
+              <point x="1980.7916666666665" y="2491.0" />
+              <point x="1980.7916666666665" y="637.0" />
+              <point x="3445.8897518259328" y="637.0" />
+              <point x="-63.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Launcher" target="de.hsa.games.fatsquirrel.console.GameImpl">
+              <point x="-114.0" y="-147.5" />
+              <point x="6487.005361493564" y="11586.0" />
+              <point x="4976.519796017374" y="11586.0" />
+              <point x="-89.75" y="124.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.MoveGame" target="de.hsa.games.fatsquirrel.core.board.Board">
+              <point x="143.25" y="-124.5" />
+              <point x="7027.287984389601" y="9934.0" />
+              <point x="7008.662984389601" y="9934.0" />
+              <point x="7008.662984389601" y="8137.0" />
+              <point x="6900.037984389601" y="8137.0" />
+              <point x="162.0" y="571.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="46.727272727272975" y="-265.5" />
+              <point x="3256.1689393939396" y="3872.0" />
+              <point x="3426.214393939394" y="3872.0" />
+              <point x="3426.214393939394" y="677.0" />
+              <point x="3479.8897518259328" y="677.0" />
+              <point x="-29.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.botapi.ControllerContext" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="107.25" y="-312.0" />
+              <point x="6813.524126825932" y="2461.0" />
+              <point x="9031.482575358466" y="2461.0" />
+              <point x="9031.482575358466" y="587.0" />
+              <point x="3564.8897518259328" y="587.0" />
+              <point x="55.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.Character" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="148.33333333333394" y="-100.5" />
+              <point x="4572.408799444981" y="1221.0" />
+              <point x="5855.702698254503" y="1221.0" />
+              <point x="-156.07142857142935" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel">
+              <point x="-195.0" y="-383.5" />
+              <point x="3908.0387354113145" y="5320.0" />
+              <point x="2164.728284714276" y="5320.0" />
+              <point x="2164.728284714276" y="4583.0" />
+              <point x="1967.646212121212" y="4583.0" />
+              <point x="1967.646212121212" y="3155.0" />
+              <point x="1978.5553030303026" y="3155.0" />
+              <point x="-87.63636363636397" y="289.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.console.Command" target="de.hsa.games.fatsquirrel.util.ui.console.CommandTypeInfo">
+              <point x="147.25" y="-100.5" />
+              <point x="587.0" y="9192.0" />
+              <point x="505.58333333333303" y="9192.0" />
+              <point x="0.0" y="100.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Launcher" target="de.hsa.games.fatsquirrel.core.Logging.MyLogger">
+              <point x="228.0" y="-147.5" />
+              <point x="6829.005361493564" y="11616.0" />
+              <point x="8402.250108225107" y="11616.0" />
+              <point x="0.0" y="147.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="235.84615384615427" y="-218.5" />
+              <point x="6212.349912045279" y="6197.0" />
+              <point x="9121.482575358466" y="6197.0" />
+              <point x="9121.482575358466" y="487.0" />
+              <point x="3649.8897518259328" y="487.0" />
+              <point x="140.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.ConsoleUI" target="de.hsa.games.fatsquirrel.console.UI">
+              <point x="156.0" y="-313.0" />
+              <point x="926.8493414719196" y="10538.0" />
+              <point x="2641.7035081385866" y="10538.0" />
+              <point x="2641.7035081385866" y="9934.0" />
+              <point x="2565.4535081385866" y="9934.0" />
+              <point x="-171.9375" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="243.96428571428532" y="-571.5" />
+              <point x="6982.002270103886" y="6824.0" />
+              <point x="8998.482575358466" y="6824.0" />
+              <point x="8998.482575358466" y="1301.0" />
+              <point x="6167.845555397362" y="1301.0" />
+              <point x="156.07142857142935" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.BadBeast" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="127.14285714285688" y="-242.0" />
+              <point x="5106.229319826898" y="2461.0" />
+              <point x="5234.086462684041" y="2461.0" />
+              <point x="5234.086462684041" y="1241.0" />
+              <point x="5882.845555397362" y="1241.0" />
+              <point x="-128.92857142857065" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.tactics.RandomTactic" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="61.875" y="-53.0" />
+              <point x="8596.125108225107" y="3942.0" />
+              <point x="9073.982575358466" y="3942.0" />
+              <point x="9073.982575358466" y="537.0" />
+              <point x="3607.3897518259328" y="537.0" />
+              <point x="97.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity">
+              <point x="-181.84375" y="-477.5" />
+              <point x="4742.179747977515" y="8117.0" />
+              <point x="1630.728284714276" y="8117.0" />
+              <point x="1630.728284714276" y="4593.0" />
+              <point x="2317.6916666666666" y="4593.0" />
+              <point x="2317.6916666666666" y="2441.0" />
+              <point x="2896.1637354113145" y="2441.0" />
+              <point x="-198.0" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot" target="de.hsa.games.fatsquirrel.botapi.BotControllerFactory">
+              <point x="158.54166666666674" y="-195.0" />
+              <point x="6821.208441558441" y="4633.0" />
+              <point x="7113.404380094388" y="4633.0" />
+              <point x="0.0" y="76.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.BadBeast" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-127.14285714285688" y="-242.0" />
+              <point x="4851.943605541184" y="2421.0" />
+              <point x="3556.2893939393944" y="2421.0" />
+              <point x="3556.2893939393944" y="647.0" />
+              <point x="3513.8897518259328" y="647.0" />
+              <point x="4.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.consoletest.MyFavoriteCommandsProzessor" target="de.hsa.games.fatsquirrel.util.ui.consoletest.CommandScanner">
+              <point x="68.0" y="-147.5" />
+              <point x="10227.399242025132" y="1152.0" />
+              <point x="10304.79209916799" y="1152.0" />
+              <point x="134.5" y="101.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.EntityContext" target="de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity">
+              <point x="-132.25" y="-288.5" />
+              <point x="3607.805303030303" y="3175.0" />
+              <point x="3132.6637354113145" y="3175.0" />
+              <point x="3132.6637354113145" y="2461.0" />
+              <point x="3160.1637354113145" y="2461.0" />
+              <point x="66.0" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-301.58333333333394" y="-454.0" />
+              <point x="1216.9326748052526" y="10508.0" />
+              <point x="4.3214285714284415" y="10508.0" />
+              <point x="4.3214285714284415" y="517.0" />
+              <point x="3343.8897518259328" y="517.0" />
+              <point x="-165.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel" target="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel">
+              <point x="43.81818181818198" y="289.5" />
+              <point x="2110.0098484848486" y="3185.0" />
+              <point x="2000.646212121212" y="3185.0" />
+              <point x="2000.646212121212" y="3862.0" />
+              <point x="2975.8053030303026" y="3862.0" />
+              <point x="-233.63636363636397" y="-265.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="179.625" y="-77.0" />
+              <point x="2747.3166666666666" y="3882.0" />
+              <point x="3499.600757575758" y="3882.0" />
+              <point x="-240.45454545454504" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Launcher" target="de.hsa.games.fatsquirrel.console.ConsoleUI">
+              <point x="-228.0" y="-147.5" />
+              <point x="6373.005361493564" y="11616.0" />
+              <point x="770.8493414719196" y="11616.0" />
+              <point x="0.0" y="313.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.ConsoleUI" target="de.hsa.games.fatsquirrel.util.ui.console.CommandScanner">
+              <point x="0.0" y="-313.0" />
+              <point x="770.8493414719196" y="10568.0" />
+              <point x="529.416666666667" y="10568.0" />
+              <point x="0.0" y="124.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="-107.25" y="-288.5" />
+              <point x="7379.204651056267" y="4533.0" />
+              <point x="5855.727315891432" y="4533.0" />
+              <point x="5855.727315891432" y="2471.0" />
+              <point x="5795.484737237246" y="2471.0" />
+              <point x="118.5625" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.GameImpl" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="153.85714285714312" y="-124.5" />
+              <point x="5220.126938874517" y="10608.0" />
+              <point x="9020.482575358466" y="10608.0" />
+              <point x="9020.482575358466" y="1281.0" />
+              <point x="6194.988412540219" y="1281.0" />
+              <point x="183.21428571428623" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.board.Board">
+              <point x="181.84375" y="-477.5" />
+              <point x="5105.867247977515" y="8087.0" />
+              <point x="6468.037984389601" y="8087.0" />
+              <point x="-270.0" y="571.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-273.0" y="-383.5" />
+              <point x="3830.0387354113145" y="5330.0" />
+              <point x="1567.228284714276" y="5330.0" />
+              <point x="1567.228284714276" y="587.0" />
+              <point x="3403.3897518259328" y="587.0" />
+              <point x="-106.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.consoletest.MyFavoriteCommandsProzessor" target="de.hsa.games.fatsquirrel.util.ui.consoletest.MyFavoriteCommandType">
+              <point x="-204.0" y="-147.5" />
+              <point x="9955.399242025132" y="1152.0" />
+              <point x="9408.732575358466" y="1152.0" />
+              <point x="-205.75" y="312.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.GameCommandType" target="de.hsa.games.fatsquirrel.util.ui.console.CommandTypeInfo">
+              <point x="0.0" y="-336.0" />
+              <point x="1131.728284714276" y="9192.0" />
+              <point x="637.2499999999991" y="9192.0" />
+              <point x="131.66666666666606" y="100.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.board.EntitySet">
+              <point x="-31.82142857142844" y="-571.5" />
+              <point x="6706.216555818172" y="6674.0" />
+              <point x="6168.128758199125" y="6674.0" />
+              <point x="191.625" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="104.4375" y="-218.5" />
+              <point x="3207.344761987004" y="4663.0" />
+              <point x="3476.9416666666666" y="4663.0" />
+              <point x="3476.9416666666666" y="3912.0" />
+              <point x="3643.873484848485" y="3912.0" />
+              <point x="-96.18181818181802" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.Wall" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="-97.5" y="-77.0" />
+              <point x="7662.304003929896" y="2451.0" />
+              <point x="5863.234737237246" y="2451.0" />
+              <point x="186.3125" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="96.39999999999964" y="-289.5" />
+              <point x="2162.5916666666662" y="2481.0" />
+              <point x="1991.7916666666665" y="2481.0" />
+              <point x="1991.7916666666665" y="1201.0" />
+              <point x="5828.559841111646" y="1201.0" />
+              <point x="-183.21428571428623" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.console.CommandScanner" target="de.hsa.games.fatsquirrel.util.ui.console.Command">
+              <point x="-179.33333333333394" y="-124.5" />
+              <point x="350.08333333333303" y="9934.0" />
+              <point x="292.5" y="9934.0" />
+              <point x="-147.25" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel">
+              <point x="-201.53571428571468" y="-571.5" />
+              <point x="6536.502270103886" y="6754.0" />
+              <point x="3104.367247977515" y="6754.0" />
+              <point x="3104.367247977515" y="5350.0" />
+              <point x="3172.532261987004" y="5350.0" />
+              <point x="69.625" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="-35.75" y="-288.5" />
+              <point x="7450.704651056267" y="4523.0" />
+              <point x="6002.422237237246" y="4523.0" />
+              <point x="6002.422237237246" y="1371.0" />
+              <point x="6059.274126825932" y="1371.0" />
+              <point x="47.5" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot.ControllerContextImpl" target="de.hsa.games.fatsquirrel.botapi.ControllerContext">
+              <point x="35.75" y="-288.5" />
+              <point x="7522.204651056267" y="3205.0" />
+              <point x="6813.524126825932" y="3205.0" />
+              <point x="107.25" y="312.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.Wall" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="-32.5" y="-77.0" />
+              <point x="7727.304003929896" y="2451.0" />
+              <point x="7754.000108225107" y="2451.0" />
+              <point x="7754.000108225107" y="1371.0" />
+              <point x="6072.845555397362" y="1371.0" />
+              <point x="61.07142857142935" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.board.EntitySet">
+              <point x="148.78125" y="-477.5" />
+              <point x="5072.804747977515" y="8077.0" />
+              <point x="5912.628758199125" y="8077.0" />
+              <point x="-63.875" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.MoveGame" target="de.hsa.games.fatsquirrel.console.UI">
+              <point x="-47.75" y="-124.5" />
+              <point x="6836.287984389601" y="9904.0" />
+              <point x="2909.3285081385866" y="9904.0" />
+              <point x="171.9375" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.utils.MoveCommand" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="0.0" y="-171.5" />
+              <point x="195.82142857142844" y="1371.0" />
+              <point x="141.97522957924684" y="1371.0" />
+              <point x="141.97522957924684" y="537.0" />
+              <point x="3360.8897518259328" y="537.0" />
+              <point x="-148.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity" target="de.hsa.games.fatsquirrel.core.utils.MoveCommand">
+              <point x="-92.39999999999964" y="-77.0" />
+              <point x="3001.763735411315" y="1774.0" />
+              <point x="350.9642857142853" y="1774.0" />
+              <point x="155.14285714285688" y="171.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.tactics.Tactic1" target="de.hsa.games.fatsquirrel.botapi.ControllerContext">
+              <point x="-123.75" y="-53.0" />
+              <point x="6147.672237237246" y="3195.0" />
+              <point x="6599.024126825932" y="3195.0" />
+              <point x="-107.25" y="312.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.BoardView" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-122.75" y="-77.0" />
+              <point x="2344.966366025125" y="6814.0" />
+              <point x="1523.228284714276" y="6814.0" />
+              <point x="1523.228284714276" y="567.0" />
+              <point x="3386.3897518259328" y="567.0" />
+              <point x="-123.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.EntityContext" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="238.05000000000018" y="-288.5" />
+              <point x="3978.1053030303033" y="3205.0" />
+              <point x="5245.086462684041" y="3205.0" />
+              <point x="5245.086462684041" y="1251.0" />
+              <point x="5896.416983968789" y="1251.0" />
+              <point x="-115.35714285714312" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.ConsoleUI" target="de.hsa.games.fatsquirrel.core.board.Board">
+              <point x="234.0" y="-313.0" />
+              <point x="1004.8493414719196" y="10558.0" />
+              <point x="5303.390164644182" y="10558.0" />
+              <point x="5303.390164644182" y="9934.0" />
+              <point x="6649.537984389601" y="9934.0" />
+              <point x="6649.537984389601" y="8137.0" />
+              <point x="6738.037984389601" y="8137.0" />
+              <point x="0.0" y="571.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.core.board.BoardView">
+              <point x="82.25" y="-454.0" />
+              <point x="1600.7660081385866" y="10528.0" />
+              <point x="2420.091366025125" y="10528.0" />
+              <point x="2420.091366025125" y="8147.0" />
+              <point x="2406.341366025125" y="8147.0" />
+              <point x="-61.375" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.UI" target="de.hsa.games.fatsquirrel.core.board.BoardView">
+              <point x="0.0" y="-100.5" />
+              <point x="2737.3910081385866" y="9172.0" />
+              <point x="2529.091366025125" y="9172.0" />
+              <point x="61.375" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="192.80000000000018" y="-289.5" />
+              <point x="2258.991666666667" y="2471.0" />
+              <point x="5422.859737237246" y="2471.0" />
+              <point x="-254.0625" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="-82.65625" y="-477.5" />
+              <point x="4841.367247977515" y="8087.0" />
+              <point x="3702.5387354113145" y="8087.0" />
+              <point x="3702.5387354113145" y="3922.0" />
+              <point x="3740.055303030303" y="3922.0" />
+              <point x="0.0" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot">
+              <point x="10.607142857143117" y="-571.5" />
+              <point x="6748.645127246744" y="6844.0" />
+              <point x="6743.537984389601" y="6844.0" />
+              <point x="6743.537984389601" y="5350.0" />
+              <point x="6948.041774891775" y="5350.0" />
+              <point x="285.375" y="195.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.board.BoardConfig">
+              <point x="116.67857142857156" y="-571.5" />
+              <point x="6854.716555818172" y="6764.0" />
+              <point x="8048.179003929896" y="6764.0" />
+              <point x="8048.179003929896" y="6177.0" />
+              <point x="8062.679003929896" y="6177.0" />
+              <point x="20.0" y="241.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="195.0" y="-383.5" />
+              <point x="4298.0387354113145" y="5330.0" />
+              <point x="5572.722508199125" y="5330.0" />
+              <point x="5572.722508199125" y="2481.0" />
+              <point x="5592.234737237246" y="2481.0" />
+              <point x="-84.6875" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.entities.GoodBeast">
+              <point x="-49.59375" y="-477.5" />
+              <point x="4874.429747977515" y="8077.0" />
+              <point x="4592.086462684041" y="8077.0" />
+              <point x="4592.086462684041" y="3175.0" />
+              <point x="4514.086462684041" y="3175.0" />
+              <point x="0.0" y="195.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.core.entities.Character">
+              <point x="-117.92307692307713" y="-218.5" />
+              <point x="5858.5806812760475" y="6167.0" />
+              <point x="5212.086462684041" y="6167.0" />
+              <point x="5212.086462684041" y="1754.0" />
+              <point x="4618.762966111647" y="1754.0" />
+              <point x="194.6875" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Game" target="de.hsa.games.fatsquirrel.console.UI">
+              <point x="-113.0" y="-242.0" />
+              <point x="5010.390164644182" y="9934.0" />
+              <point x="2811.0785081385866" y="9934.0" />
+              <point x="73.6875" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="93.45454545454504" y="-265.5" />
+              <point x="3302.8962121212116" y="3892.0" />
+              <point x="3547.691666666667" y="3892.0" />
+              <point x="-192.36363636363603" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.consoletest.Command" target="de.hsa.games.fatsquirrel.util.ui.consoletest.CommandTypeInfo">
+              <point x="147.25" y="-100.5" />
+              <point x="10487.732575358466" y="225.0" />
+              <point x="10309.5659086918" y="225.0" />
+              <point x="116.33333333333394" y="100.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.BadBeast" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="-89.0" y="242.0" />
+              <point x="4890.086462684041" y="3195.0" />
+              <point x="3925.2053030303027" y="3195.0" />
+              <point x="185.14999999999964" y="-288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot">
+              <point x="-117.0" y="-383.5" />
+              <point x="3986.0387354113145" y="5310.0" />
+              <point x="2639.001011987004" y="5310.0" />
+              <point x="2639.001011987004" y="4603.0" />
+              <point x="2567.6916666666666" y="4603.0" />
+              <point x="0.0" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="-158.54166666666652" y="-195.0" />
+              <point x="6504.125108225108" y="4613.0" />
+              <point x="5844.727315891432" y="4613.0" />
+              <point x="5844.727315891432" y="2481.0" />
+              <point x="5761.609737237246" y="2481.0" />
+              <point x="84.6875" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot" target="de.hsa.games.fatsquirrel.botapi.ControllerContext">
+              <point x="-95.125" y="-195.0" />
+              <point x="6567.541774891775" y="4683.0" />
+              <point x="6529.422237237246" y="4683.0" />
+              <point x="6529.422237237246" y="3205.0" />
+              <point x="6670.524126825932" y="3205.0" />
+              <point x="-35.75" y="312.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot" target="de.hsa.games.fatsquirrel.botapi.BotController">
+              <point x="95.125" y="-195.0" />
+              <point x="6757.791774891775" y="4683.0" />
+              <point x="6722.404380094389" y="4683.0" />
+              <point x="6722.404380094389" y="3952.0" />
+              <point x="6787.422237237246" y="3952.0" />
+              <point x="0.0" y="53.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="191.91666666666606" y="-454.0" />
+              <point x="1710.4326748052526" y="10578.0" />
+              <point x="5704.140987237246" y="10578.0" />
+              <point x="5704.140987237246" y="2481.0" />
+              <point x="5693.859737237246" y="2481.0" />
+              <point x="16.9375" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="-221.95833333333303" y="-195.0" />
+              <point x="6440.708441558441" y="4623.0" />
+              <point x="4525.5387354113145" y="4623.0" />
+              <point x="4525.5387354113145" y="3882.0" />
+              <point x="3980.509848484849" y="3882.0" />
+              <point x="240.45454545454595" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl" target="de.hsa.games.fatsquirrel.botapi.ControllerContext">
+              <point x="273.0" y="-383.5" />
+              <point x="4376.0387354113145" y="5340.0" />
+              <point x="6013.422237237246" y="5340.0" />
+              <point x="6013.422237237246" y="3185.0" />
+              <point x="6527.524126825932" y="3185.0" />
+              <point x="-178.75" y="312.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="-157.2307692307695" y="-218.5" />
+              <point x="5819.272988968355" y="6177.0" />
+              <point x="4514.5387354113145" y="6177.0" />
+              <point x="4514.5387354113145" y="3892.0" />
+              <point x="3932.41893939394" y="3892.0" />
+              <point x="192.36363636363694" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.BadBeast" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="190.71428571428623" y="-242.0" />
+              <point x="5169.800748398327" y="2491.0" />
+              <point x="5490.609737237246" y="2491.0" />
+              <point x="-186.3125" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.GameImpl" target="de.hsa.games.fatsquirrel.Game">
+              <point x="51.285714285714675" y="-124.5" />
+              <point x="5117.555510303089" y="10548.0" />
+              <point x="5208.140164644182" y="10548.0" />
+              <point x="84.75" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="0.0" y="-77.0" />
+              <point x="3094.1637354113145" y="657.0" />
+              <point x="3462.8897518259328" y="657.0" />
+              <point x="-46.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Launcher" target="de.hsa.games.fatsquirrel.core.board.BoardConfig">
+              <point x="190.0" y="-147.5" />
+              <point x="6791.005361493564" y="11606.0" />
+              <point x="8158.750108225107" y="11606.0" />
+              <point x="8158.750108225107" y="6187.0" />
+              <point x="8142.679003929896" y="6187.0" />
+              <point x="100.0" y="241.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.botapi.BotController">
+              <point x="117.92307692307713" y="-218.5" />
+              <point x="6094.426835122202" y="6167.0" />
+              <point x="7736.704651056267" y="6167.0" />
+              <point x="7736.704651056267" y="3922.0" />
+              <point x="6928.850808665817" y="3922.0" />
+              <point x="141.42857142857156" y="53.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.Entity" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="-33.92857142857065" y="242.0" />
+              <point x="5977.845555397362" y="1311.0" />
+              <point x="5622.987504350707" y="1311.0" />
+              <point x="5622.987504350707" y="1794.0" />
+              <point x="5676.922237237246" y="1794.0" />
+              <point x="0.0" y="-288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="59.875" y="-77.0" />
+              <point x="2627.5666666666666" y="3872.0" />
+              <point x="2852.6637354113145" y="3872.0" />
+              <point x="2852.6637354113145" y="647.0" />
+              <point x="3454.3897518259328" y="647.0" />
+              <point x="-55.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.GameImpl" target="de.hsa.games.fatsquirrel.console.UI">
+              <point x="-51.285714285714675" y="-124.5" />
+              <point x="5014.98408173166" y="10488.0" />
+              <point x="2685.7035081385866" y="10488.0" />
+              <point x="2685.7035081385866" y="9934.0" />
+              <point x="2761.9535081385866" y="9934.0" />
+              <point x="24.5625" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel">
+              <point x="-115.71875" y="-477.5" />
+              <point x="4808.304747977515" y="8097.0" />
+              <point x="2723.716366025125" y="8097.0" />
+              <point x="2723.716366025125" y="6804.0" />
+              <point x="2153.728284714276" y="6804.0" />
+              <point x="2153.728284714276" y="4613.0" />
+              <point x="2984.5666666666666" y="4613.0" />
+              <point x="-224.875" y="265.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="-78.61538461538476" y="-218.5" />
+              <point x="5897.88837358374" y="6157.0" />
+              <point x="5833.727315891432" y="6157.0" />
+              <point x="5833.727315891432" y="2491.0" />
+              <point x="5727.734737237246" y="2491.0" />
+              <point x="50.8125" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.ConsoleUI" target="de.hsa.games.fatsquirrel.core.utils.MoveCommand">
+              <point x="-234.0" y="-313.0" />
+              <point x="536.8493414719196" y="10598.0" />
+              <point x="28.0" y="10598.0" />
+              <point x="28.0" y="1764.0" />
+              <point x="40.67857142857156" y="1764.0" />
+              <point x="-155.14285714285688" y="171.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="174.0625" y="-218.5" />
+              <point x="3276.969761987004" y="4673.0" />
+              <point x="5267.086462684041" y="4673.0" />
+              <point x="5267.086462684041" y="1271.0" />
+              <point x="5923.559841111646" y="1271.0" />
+              <point x="-88.21428571428623" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.botapi.ControllerContext" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="-107.25" y="-312.0" />
+              <point x="6599.024126825932" y="2461.0" />
+              <point x="5829.359737237246" y="2461.0" />
+              <point x="152.4375" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.botapi.BotControllerFactory" target="de.hsa.games.fatsquirrel.botapi.BotController">
+              <point x="-190.25" y="-76.5" />
+              <point x="6923.154380094388" y="3952.0" />
+              <point x="6858.136522951531" y="3952.0" />
+              <point x="70.71428571428578" y="53.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.UI" target="de.hsa.games.fatsquirrel.core.utils.MoveCommand">
+              <point x="-131.0" y="-100.5" />
+              <point x="2606.3910081385866" y="9182.0" />
+              <point x="991.9744109168414" y="9182.0" />
+              <point x="991.9744109168414" y="1794.0" />
+              <point x="247.53571428571468" y="1794.0" />
+              <point x="51.714285714286234" y="171.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.GoodBeast" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="190.71428571428623" y="-195.0" />
+              <point x="4704.800748398327" y="2481.0" />
+              <point x="5456.734737237246" y="2481.0" />
+              <point x="-220.1875" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.botapi.BotController" target="de.hsa.games.fatsquirrel.botapi.ControllerContext">
+              <point x="0.0" y="-53.0" />
+              <point x="6787.422237237246" y="3205.0" />
+              <point x="6742.024126825932" y="3205.0" />
+              <point x="35.75" y="312.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.BadBeast" target="de.hsa.games.fatsquirrel.core.entities.Character">
+              <point x="0.0" y="-242.0" />
+              <point x="4979.086462684041" y="1764.0" />
+              <point x="4563.137966111647" y="1764.0" />
+              <point x="139.0625" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.utils.State" target="de.hsa.games.fatsquirrel.core.board.FlattenedBoard">
+              <point x="-75.57142857142844" y="-172.0" />
+              <point x="5229.348367445946" y="9162.0" />
+              <point x="4924.023497977515" y="9162.0" />
+              <point x="0.0" y="477.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel" target="de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity">
+              <point x="-104.4375" y="-218.5" />
+              <point x="2998.469761987004" y="4553.0" />
+              <point x="2817.6916666666666" y="4553.0" />
+              <point x="2817.6916666666666" y="2451.0" />
+              <point x="2962.1637354113145" y="2451.0" />
+              <point x="-132.0" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.GoodBeast" target="de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity">
+              <point x="-190.71428571428623" y="-195.0" />
+              <point x="4323.372176969755" y="2461.0" />
+              <point x="3226.1637354113145" y="2461.0" />
+              <point x="132.0" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.consoletest.MyFavoriteCommandType" target="de.hsa.games.fatsquirrel.util.ui.consoletest.CommandTypeInfo">
+              <point x="0.0" y="-312.5" />
+              <point x="9614.482575358466" y="225.0" />
+              <point x="10076.899242025132" y="225.0" />
+              <point x="-116.33333333333394" y="100.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.GoodBeast" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="127.14285714285688" y="-195.0" />
+              <point x="4641.229319826898" y="2451.0" />
+              <point x="5223.086462684041" y="2451.0" />
+              <point x="5223.086462684041" y="1231.0" />
+              <point x="5869.274126825932" y="1231.0" />
+              <point x="-142.5" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.entities.GoodPlant">
+              <point x="180.32142857142844" y="-571.5" />
+              <point x="6918.359412961029" y="6794.0" />
+              <point x="8792.250108225107" y="6794.0" />
+              <point x="8792.250108225107" y="3205.0" />
+              <point x="8727.232575358466" y="3205.0" />
+              <point x="-83.25" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="286.3928571428569" y="-571.5" />
+              <point x="7024.430841532458" y="6844.0" />
+              <point x="9140.982575358466" y="6844.0" />
+              <point x="9140.982575358466" y="467.0" />
+              <point x="3666.8897518259328" y="467.0" />
+              <point x="157.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="301.58333333333394" y="-454.0" />
+              <point x="1820.0993414719205" y="10598.0" />
+              <point x="6682.537984389601" y="10598.0" />
+              <point x="6682.537984389601" y="9192.0" />
+              <point x="9009.482575358466" y="9192.0" />
+              <point x="9009.482575358466" y="1291.0" />
+              <point x="6181.416983968789" y="1291.0" />
+              <point x="169.64285714285688" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.core.board.Board">
+              <point x="246.75" y="-454.0" />
+              <point x="1765.2660081385866" y="10588.0" />
+              <point x="6660.537984389601" y="10588.0" />
+              <point x="6660.537984389601" y="8147.0" />
+              <point x="6792.037984389601" y="8147.0" />
+              <point x="54.0" y="571.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.GoodBeast" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="-89.0" y="195.0" />
+              <point x="4425.086462684041" y="3175.0" />
+              <point x="3819.4053030303035" y="3175.0" />
+              <point x="79.35000000000036" y="-288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.Wall" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="97.5" y="-77.0" />
+              <point x="7857.304003929896" y="2471.0" />
+              <point x="9039.982575358466" y="2471.0" />
+              <point x="9039.982575358466" y="577.0" />
+              <point x="3573.3897518259328" y="577.0" />
+              <point x="63.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot">
+              <point x="-178.75" y="-288.5" />
+              <point x="7307.704651056267" y="4543.0" />
+              <point x="2727.3583333333336" y="4543.0" />
+              <point x="159.66666666666697" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="243.6875" y="-218.5" />
+              <point x="3346.594761987004" y="4683.0" />
+              <point x="5561.722508199125" y="4683.0" />
+              <point x="5561.722508199125" y="2491.0" />
+              <point x="5558.359737237246" y="2491.0" />
+              <point x="-118.5625" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.EntityEnum" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="-180.66666666666697" y="-288.5" />
+              <point x="5496.255570570579" y="1794.0" />
+              <point x="5598.889174865792" y="1794.0" />
+              <point x="5598.889174865792" y="1301.0" />
+              <point x="5964.274126825932" y="1301.0" />
+              <point x="-47.5" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.entities.GoodBeast">
+              <point x="-137.89285714285688" y="-571.5" />
+              <point x="6600.145127246744" y="6724.0" />
+              <point x="4603.086462684041" y="6724.0" />
+              <point x="89.0" y="195.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.EntityContext" target="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel">
+              <point x="-238.05000000000018" y="-288.5" />
+              <point x="3502.005303030303" y="3195.0" />
+              <point x="2241.4643939393936" y="3195.0" />
+              <point x="175.27272727272702" y="289.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.core.utils.MoveCommand">
+              <point x="-191.91666666666606" y="-454.0" />
+              <point x="1326.5993414719205" y="10488.0" />
+              <point x="134.75" y="10488.0" />
+              <point x="134.75" y="1794.0" />
+              <point x="195.82142857142844" y="1794.0" />
+              <point x="0.0" y="171.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel">
+              <point x="-222.75" y="-571.5" />
+              <point x="6515.287984389601" y="6764.0" />
+              <point x="2794.9265932978524" y="6764.0" />
+              <point x="2794.9265932978524" y="4633.0" />
+              <point x="3113.0666666666666" y="4633.0" />
+              <point x="-96.375" y="265.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Launcher" target="de.hsa.games.fatsquirrel.core.utils.State">
+              <point x="-38.0" y="-147.5" />
+              <point x="6563.005361493564" y="11566.0" />
+              <point x="5353.019796017374" y="11566.0" />
+              <point x="5353.019796017374" y="9924.0" />
+              <point x="5410.719796017374" y="9924.0" />
+              <point x="105.80000000000018" y="172.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.GameImpl" target="de.hsa.games.fatsquirrel.core.utils.State">
+              <point x="102.57142857142844" y="-124.5" />
+              <point x="5168.841224588803" y="10568.0" />
+              <point x="5314.390164644182" y="10568.0" />
+              <point x="5314.390164644182" y="9924.0" />
+              <point x="5304.919796017374" y="9924.0" />
+              <point x="0.0" y="172.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.board.BoardView">
+              <point x="-148.78125" y="-477.5" />
+              <point x="4775.242247977515" y="8107.0" />
+              <point x="2651.841366025125" y="8107.0" />
+              <point x="184.125" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot" target="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel">
+              <point x="-179.625" y="-77.0" />
+              <point x="2388.0666666666666" y="3952.0" />
+              <point x="1978.646212121212" y="3952.0" />
+              <point x="1978.646212121212" y="3165.0" />
+              <point x="2022.3734848484846" y="3165.0" />
+              <point x="-43.81818181818198" y="289.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.utils.State" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="-226.71428571428532" y="-172.0" />
+              <point x="5078.205510303089" y="9182.0" />
+              <point x="3559.251011987004" y="9182.0" />
+              <point x="3559.251011987004" y="3922.0" />
+              <point x="3691.964393939394" y="3922.0" />
+              <point x="-48.09090909090901" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.entities.BadBeast">
+              <point x="-74.25" y="-571.5" />
+              <point x="6663.787984389601" y="6694.0" />
+              <point x="5079.086462684041" y="6694.0" />
+              <point x="5079.086462684041" y="3195.0" />
+              <point x="5157.086462684041" y="3195.0" />
+              <point x="178.0" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Launcher" target="de.hsa.games.fatsquirrel.core.board.Board">
+              <point x="152.0" y="-147.5" />
+              <point x="6753.005361493564" y="11596.0" />
+              <point x="7096.537984389601" y="11596.0" />
+              <point x="7096.537984389601" y="8117.0" />
+              <point x="7008.037984389601" y="8117.0" />
+              <point x="270.0" y="571.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="107.25" y="-288.5" />
+              <point x="7593.704651056267" y="4673.0" />
+              <point x="9101.982575358466" y="4673.0" />
+              <point x="9101.982575358466" y="507.0" />
+              <point x="3632.8897518259328" y="507.0" />
+              <point x="123.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.Entity" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-126.66666666666606" y="-242.0" />
+              <point x="5885.107460159266" y="617.0" />
+              <point x="3539.3897518259328" y="617.0" />
+              <point x="29.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.tactics.Tactic1" target="de.hsa.games.fatsquirrel.botapi.BotController">
+              <point x="123.75" y="-53.0" />
+              <point x="6395.172237237246" y="3952.0" />
+              <point x="6575.279380094388" y="3952.0" />
+              <point x="-212.1428571428571" y="53.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity" target="de.hsa.games.fatsquirrel.core.entities.Character">
+              <point x="92.39999999999964" y="-77.0" />
+              <point x="3186.563735411314" y="1774.0" />
+              <point x="4229.387966111647" y="1774.0" />
+              <point x="-194.6875" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.BadPlant" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="-118.125" y="-77.0" />
+              <point x="7975.875108225107" y="2441.0" />
+              <point x="5897.109737237246" y="2441.0" />
+              <point x="220.1875" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.entities.BadBeast">
+              <point x="-16.53125" y="-477.5" />
+              <point x="4907.492247977515" y="8027.0" />
+              <point x="5057.086462684041" y="8027.0" />
+              <point x="5057.086462684041" y="3195.0" />
+              <point x="4979.086462684041" y="3195.0" />
+              <point x="0.0" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel">
+              <point x="-286.3928571428569" y="-571.5" />
+              <point x="6451.645127246744" y="6794.0" />
+              <point x="1556.228284714276" y="6794.0" />
+              <point x="1556.228284714276" y="4683.0" />
+              <point x="1608.728284714276" y="4683.0" />
+              <point x="1608.728284714276" y="3195.0" />
+              <point x="1890.9189393939396" y="3195.0" />
+              <point x="-175.27272727272702" y="289.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.UI" target="de.hsa.games.fatsquirrel.core.board.Board">
+              <point x="131.0" y="-100.5" />
+              <point x="2868.3910081385866" y="9192.0" />
+              <point x="5199.023497977515" y="9192.0" />
+              <point x="5199.023497977515" y="8107.0" />
+              <point x="6576.037984389601" y="8107.0" />
+              <point x="-162.0" y="571.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.EntityContext" target="de.hsa.games.fatsquirrel.core.entities.BadBeast">
+              <point x="132.25" y="-288.5" />
+              <point x="3872.305303030303" y="3185.0" />
+              <point x="4801.086462684041" y="3185.0" />
+              <point x="-178.0" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-243.6875" y="-218.5" />
+              <point x="2859.219761987004" y="4573.0" />
+              <point x="1575.728284714276" y="4573.0" />
+              <point x="1575.728284714276" y="597.0" />
+              <point x="3411.8897518259328" y="597.0" />
+              <point x="-97.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.GoodPlant" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="41.625" y="-77.0" />
+              <point x="8852.107575358466" y="2451.0" />
+              <point x="8815.982575358466" y="2451.0" />
+              <point x="8815.982575358466" y="1321.0" />
+              <point x="6140.702698254503" y="1321.0" />
+              <point x="128.92857142857065" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.botapi.BotControllerFactory" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="190.25" y="-76.5" />
+              <point x="7303.654380094388" y="3932.0" />
+              <point x="9065.482575358466" y="3932.0" />
+              <point x="9065.482575358466" y="547.0" />
+              <point x="3598.8897518259328" y="547.0" />
+              <point x="89.25" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="233.63636363636397" y="-265.5" />
+              <point x="3443.0780303030306" y="3942.0" />
+              <point x="5550.722508199125" y="3942.0" />
+              <point x="5550.722508199125" y="2491.0" />
+              <point x="5524.484737237246" y="2491.0" />
+              <point x="-152.4375" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.EntitySet" target="de.hsa.games.fatsquirrel.core.bots.MiniSquirrelBot">
+              <point x="-235.84615384615427" y="-218.5" />
+              <point x="5740.65760435297" y="6197.0" />
+              <point x="1892.228284714276" y="6197.0" />
+              <point x="1892.228284714276" y="4603.0" />
+              <point x="2408.0249999999996" y="4603.0" />
+              <point x="-159.66666666666697" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.utils.State" target="de.hsa.games.fatsquirrel.core.board.Board">
+              <point x="151.14285714285688" y="-172.0" />
+              <point x="5456.062653160231" y="9182.0" />
+              <point x="6557.005361493564" y="9182.0" />
+              <point x="6557.005361493564" y="8117.0" />
+              <point x="6630.037984389601" y="8117.0" />
+              <point x="-108.0" y="571.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.utils.State" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="75.57142857142844" y="-172.0" />
+              <point x="5380.491224588803" y="9172.0" />
+              <point x="5498.278591111646" y="9172.0" />
+              <point x="5498.278591111646" y="3952.0" />
+              <point x="5958.422237237246" y="3952.0" />
+              <point x="5958.422237237246" y="1331.0" />
+              <point x="6004.988412540219" y="1331.0" />
+              <point x="-6.785714285713766" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.tactics.RandomTactic" target="de.hsa.games.fatsquirrel.botapi.BotController">
+              <point x="-185.625" y="-53.0" />
+              <point x="8348.625108225107" y="3912.0" />
+              <point x="6999.565094380103" y="3912.0" />
+              <point x="212.14285714285734" y="53.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Launcher" target="de.hsa.games.fatsquirrel.console.FxUI">
+              <point x="-190.0" y="-147.5" />
+              <point x="6411.005361493564" y="11606.0" />
+              <point x="1518.5160081385866" y="11606.0" />
+              <point x="0.0" y="454.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.console.UI">
+              <point x="137.08333333333394" y="-454.0" />
+              <point x="1655.5993414719205" y="10548.0" />
+              <point x="2652.7035081385866" y="10548.0" />
+              <point x="2652.7035081385866" y="9924.0" />
+              <point x="2614.5785081385866" y="9924.0" />
+              <point x="-122.8125" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel">
+              <point x="-214.90625" y="-477.5" />
+              <point x="4709.117247977515" y="8127.0" />
+              <point x="1534.228284714276" y="8127.0" />
+              <point x="1534.228284714276" y="4673.0" />
+              <point x="1597.728284714276" y="4673.0" />
+              <point x="1597.728284714276" y="3185.0" />
+              <point x="1847.1007575757576" y="3185.0" />
+              <point x="-219.090909090909" y="289.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.BadPlant" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="39.375" y="-77.0" />
+              <point x="8133.375108225107" y="2451.0" />
+              <point x="8066.204651056267" y="2451.0" />
+              <point x="8066.204651056267" y="1341.0" />
+              <point x="6113.559841111646" y="1341.0" />
+              <point x="101.78571428571377" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.HandOperatedMasterSquirrel" target="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel">
+              <point x="-34.8125" y="-218.5" />
+              <point x="3068.094761987004" y="4643.0" />
+              <point x="3177.3166666666666" y="4643.0" />
+              <point x="-32.125" y="265.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.FlattenedBoard" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-247.96875" y="-477.5" />
+              <point x="4676.054747977515" y="8137.0" />
+              <point x="1514.728284714276" y="8137.0" />
+              <point x="1514.728284714276" y="557.0" />
+              <point x="3377.8897518259328" y="557.0" />
+              <point x="-131.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel" target="de.hsa.games.fatsquirrel.core.playerBased.PlayerEntity">
+              <point x="-46.727272727272975" y="-265.5" />
+              <point x="3162.7143939393936" y="3822.0" />
+              <point x="2841.6637354113145" y="3822.0" />
+              <point x="2841.6637354113145" y="3205.0" />
+              <point x="3121.6637354113145" y="3205.0" />
+              <point x="3121.6637354113145" y="2461.0" />
+              <point x="3094.1637354113145" y="2461.0" />
+              <point x="0.0" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.Launcher" target="de.hsa.games.fatsquirrel.MoveGame">
+              <point x="38.0" y="-147.5" />
+              <point x="6639.005361493564" y="11566.0" />
+              <point x="6878.537984389601" y="11566.0" />
+              <point x="6878.537984389601" y="10598.0" />
+              <point x="6788.537984389601" y="10598.0" />
+              <point x="-95.5" y="124.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.Character" target="de.hsa.games.fatsquirrel.core.utils.XY">
+              <point x="-148.33333333333394" y="-100.5" />
+              <point x="4275.742132778313" y="637.0" />
+              <point x="3522.3897518259328" y="637.0" />
+              <point x="12.75" y="218.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.board.Board" target="de.hsa.games.fatsquirrel.core.entities.BadPlant">
+              <point x="159.10714285714312" y="-571.5" />
+              <point x="6897.145127246744" y="6784.0" />
+              <point x="8276.250108225107" y="6784.0" />
+              <point x="8276.250108225107" y="3205.0" />
+              <point x="8172.750108225107" y="3205.0" />
+              <point x="78.75" y="77.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.bots.ControllerContextImpl" target="de.hsa.games.fatsquirrel.core.entities.EntityContext">
+              <point x="39.0" y="-383.5" />
+              <point x="4142.0387354113145" y="3922.0" />
+              <point x="3788.146212121212" y="3922.0" />
+              <point x="48.09090909090901" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.entities.GoodPlant" target="de.hsa.games.fatsquirrel.core.entities.EntityEnum">
+              <point x="-124.875" y="-77.0" />
+              <point x="8685.607575358466" y="2431.0" />
+              <point x="5930.984737237246" y="2431.0" />
+              <point x="254.0625" y="288.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.util.ui.consoletest.CommandScanner" target="de.hsa.games.fatsquirrel.util.ui.consoletest.Command">
+              <point x="179.33333333333394" y="-101.0" />
+              <point x="10349.625432501323" y="900.0" />
+              <point x="10340.482575358466" y="900.0" />
+              <point x="0.0" y="100.5" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel" target="de.hsa.games.fatsquirrel.core.entities.Entity">
+              <point x="186.909090909091" y="-265.5" />
+              <point x="3396.3507575757576" y="3932.0" />
+              <point x="5256.086462684041" y="3932.0" />
+              <point x="5256.086462684041" y="1261.0" />
+              <point x="5909.988412540219" y="1261.0" />
+              <point x="-101.78571428571377" y="242.0" />
+            </edge>
+            <edge source="de.hsa.games.fatsquirrel.console.FxUI" target="de.hsa.games.fatsquirrel.util.ui.console.CommandScanner">
+              <point x="-137.08333333333394" y="-454.0" />
+              <point x="1381.4326748052526" y="10478.0" />
+              <point x="637.0166666666673" y="10478.0" />
+              <point x="107.60000000000036" y="124.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5" x="4421.0" y="4296.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/tactics/Tactic1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/MiniSquirrel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/ControllerContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="186" column="40" lean-forward="false" selection-start-line="186" selection-start-column="40" selection-end-line="186" selection-end-column="40" />
+          <folding>
+            <element signature="e#6352#6353#0" expanded="true" />
+            <element signature="e#6434#6435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MiniSquirrelBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MasterSquirrelBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="140" column="9" lean-forward="false" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+          <folding>
+            <marker date="1528120511431" expanded="true" signature="3812:3840" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/tactics/RandomTactic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
