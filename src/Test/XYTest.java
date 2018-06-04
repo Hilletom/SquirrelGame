@@ -1,14 +1,15 @@
 package Test;
 
-import Test.XY;
+
 
 import org.junit.*;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
+
 public class XYTest {
-    private XY loc;
+    private XY Test;
 
 
 
@@ -16,7 +17,7 @@ public class XYTest {
 
     public void setup() {
 
-        loc = new XY(1,1);
+        Test = new XY(1,1);
 
     }
 
@@ -25,7 +26,7 @@ public class XYTest {
     @Test
     public void testPlus() {
 
-        assertEquals(new XY(2,2), loc.plus(loc));
+        assertEquals(new XY(2,2), Test.plus(Test));
 
     }
 
@@ -35,7 +36,7 @@ public class XYTest {
 
     public void testMinus() {
 
-        assertEquals(new XY(0, 0), loc.minus(loc));
+        assertEquals(new XY(0, 0), Test.minus(Test));
 
     }
 
@@ -47,7 +48,7 @@ public class XYTest {
 
         int factor = 5;
 
-        assertEquals(new XY(factor, factor), loc.times(factor));
+        assertEquals(new XY(factor, factor), Test.times(factor));
 
     }
 
@@ -57,7 +58,7 @@ public class XYTest {
 
     public void testLength() {
 
-        assertEquals(Math.sqrt(2), loc.length(), 1/Double.MAX_VALUE);
+        assertEquals(Math.sqrt(2), Test.length(), 1/Double.MAX_VALUE);
 
     }
 
@@ -69,31 +70,31 @@ public class XYTest {
 
         XY test1 = new XY(1, 0);
 
-        assertEquals(1, loc.distanceFrom(test1), 1/Double.MAX_VALUE);
+        assertEquals(1, Test.distanceFrom(test1), 1/Double.MAX_VALUE);
 
 
 
         XY test2 = new XY(1, 2);
 
-        assertEquals(1, loc.distanceFrom(test2), 1/Double.MAX_VALUE);
+        assertEquals(1, Test.distanceFrom(test2), 1/Double.MAX_VALUE);
 
 
 
         XY test3 = new XY(0, 1);
 
-        assertEquals(1, loc.distanceFrom(test3), 1/Double.MAX_VALUE);
+        assertEquals(1, Test.distanceFrom(test3), 1/Double.MAX_VALUE);
 
 
 
         XY test4 = new XY(2, 1);
 
-        assertEquals(1, loc.distanceFrom(test4), 1/Double.MAX_VALUE);
+        assertEquals(1, Test.distanceFrom(test4), 1/Double.MAX_VALUE);
 
 
 
         XY test5 = new XY(4, 5);
 
-        assertEquals(5, loc.distanceFrom(test5), 1/Double.MAX_VALUE);
+        assertEquals(5, Test.distanceFrom(test5), 1/Double.MAX_VALUE);
 
     }
 
@@ -103,7 +104,7 @@ public class XYTest {
 
     public void testHashCode() {
 
-        assertEquals(993, loc.hashCode());
+        assertEquals(993, Test.hashCode());
 
     }
 
@@ -113,19 +114,19 @@ public class XYTest {
 
     public void testEquals() {
 
-        assertEquals(loc, loc);
+        assertEquals(Test, Test);
 
 
 
         XY test1 = new XY(2, 2);
 
-        assertNotEquals(loc, test1);
+        assertNotEquals(Test, test1);
 
 
 
-        XY test2 = new XY(loc.x, loc.y);
+        XY test2 = new XY(Test.x, Test.y);
 
-        assertEquals(loc, test2);
+        assertEquals(Test, test2);
 
     }
 
@@ -135,9 +136,9 @@ public class XYTest {
 
     public void testToString() {
 
-        String string = loc.x + " " + loc.y;
+        String string = Test.x + " " + Test.y;
 
-        assertEquals(string, loc.toString());
+        assertEquals(string, Test.toString());
 
     }
 }
