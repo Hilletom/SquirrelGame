@@ -1,27 +1,37 @@
 package de.hsa.games.fatsquirrel.core.bots;
 
+import de.hsa.games.fatsquirrel.botapi.BotController;
+import de.hsa.games.fatsquirrel.botapi.BotControllerFactory;
 import de.hsa.games.fatsquirrel.botapi.ControllerContext;
 import de.hsa.games.fatsquirrel.core.board.EntitySet;
-import de.hsa.games.fatsquirrel.core.entities.Entity;
+import de.hsa.games.fatsquirrel.core.bots.tactics.RandomTactic;
+import de.hsa.games.fatsquirrel.core.bots.tactics.Tactic1;
 import de.hsa.games.fatsquirrel.core.entities.EntityContext;
 import de.hsa.games.fatsquirrel.core.entities.EntityEnum;
-import de.hsa.games.fatsquirrel.core.entities.EntityType;
 import de.hsa.games.fatsquirrel.core.playerBased.MasterSquirrel;
-import de.hsa.games.fatsquirrel.core.utils.MoveCommand;
 import de.hsa.games.fatsquirrel.core.utils.XY;
 
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
-public class MasterSquirrelBot extends MasterSquirrel {
+import static de.hsa.games.fatsquirrel.core.entities.EntityEnum.*;
+import static de.hsa.games.fatsquirrel.core.entities.EntityEnum.miniSquirell;
 
-    private final ControllerContextImpl controllerContext;
+public class MasterSquirrelBot extends MasterSquirrel implements BotControllerFactory, BotController {
 
-	public MasterSquirrelBot(int id, XY xy, EntitySet entitySet) {
-		super(id, xy);
-        this.controllerContext = new ControllerContextImpl(entitySet);
+    private BotController botController;
+    Method tactic;
+
+	public MasterSquirrelBot(int id, XY xy) {
+		super(id, xy,1000);
+        this.type = masterSquirell;
+        this.botController = new RandomTactic();
     }
 
+    /**
+	 * Noch Nicht Fertig
 	public void nextstep(EntityContext context) {
 		EntityEnum[][] map = new EntityEnum[10][10];
 
@@ -120,61 +130,48 @@ public class MasterSquirrelBot extends MasterSquirrel {
 
 
 	}
+	*/
 
-	public class ControllerContextImpl implements ControllerContext{
+    public void nextstep(EntityContext context){
+        super.nextstep(context);
 
-	    private final EntitySet entitySet;
-
-	    public ControllerContextImpl(EntitySet entitySet){
-            this.entitySet = entitySet;
+        Random rn = new Random();
+        if(rn.nextInt(100) == 75){
+            this.spawnMini(10, context);
         }
+    }
 
-		@Override
-		public XY getViewLowerLeft() {
-			int x = getPosition().getX() - 15;
-			int y = getPosition().getY() - 15;
-			return new XY (x,y);
-		}
-
-		@Override
-		public XY getViewUpperRight() {
-			int x = getPosition().getX() + 15;
-			int y = getPosition().getY() + 15;
-			return new XY (x,y);
-		}
-
-		@Override
-		public EntityEnum getEntityAt(XY xy) {
-			// TODO Auto-generated method stub
-
-            for(Entity entity : entitySet.getEntityArray()){
-                if(entity != null) {
-                    if (entity.getXy() == xy) {
-                        return entity.getType();
+    @Override
+    public BotController createMasterBotController(int id, XY pos, String tactic) {
+        return new MasterSquirrelBot(id, pos) {
+            @Override
+            public void nextstep(ControllerContext view) {
+                    try {
+                        if (this.tactic != null) {
+                        Class cl = Class.forName("RandomTactic");
+                        Method method = cl.getMethod("nextstep",ControllerContext.class);
+                        method.invoke(view);
+                        }else{
+                            this.tactic.invoke(view);
+                        }
+                    } catch (Exception e) {
+                        try {
+                            this.tactic = RandomTactic.class.getMethod("nextstep");
+                        } catch (NoSuchMethodException e1) {
+                            e1.printStackTrace();
+                        }
                     }
-                }
             }
+        };
+    }
 
-			return null;
-		}
+    @Override
+    public BotController createMiniBotController() {
+        return null;
+    }
 
-		@Override
-		public void move(XY direction) {
-			// TODO Auto-generated method stub
-            setMoveCommand(new MoveCommand(MoveCommand.getMoveInput(direction)));
-		}
-
-		@Override
-		public void spawnMiniBot(XY direction, int energy) {
-			// TODO Auto-generated method stub
-			
-		}
-
-		@Override
-		public int getEnergy() {
-			// TODO Auto-generated method stub
-			return this.getEnergy();
-		}
-		
-	}
+    @Override
+    public void nextstep(ControllerContext view) {
+        botController.nextstep(view);
+    }
 }

@@ -17,7 +17,6 @@ public class MiniSquirrel extends MasterSquirrel {
         this.masterid = masterid;
         this.type = EntityEnum.miniSquirell;
         LOGGER.finest( "HandOperatedMasterSquirrel is stuned"+getEnergy());
-
     }
 
     public void nextstep(EntityContext context) {
@@ -42,7 +41,7 @@ public class MiniSquirrel extends MasterSquirrel {
     }
 
 
-    private boolean Stun() {
+    protected boolean Stun() {
         if (paralized >= 3) {
             return false;
         } else {
@@ -82,5 +81,28 @@ public class MiniSquirrel extends MasterSquirrel {
         return cnpos;
     }
 
+    public boolean isMine(int masterID){
+        if(masterID == this.masterid){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public int getMasterid() {
+        return masterid;
+    }
+
+    public void setMasterid(int masterid) {
+        this.masterid = masterid;
+    }
+
+    public int getParalized() {
+        return paralized;
+    }
+
+    public void setParalized(int paralized) {
+        this.paralized = paralized;
+    }
 
 }

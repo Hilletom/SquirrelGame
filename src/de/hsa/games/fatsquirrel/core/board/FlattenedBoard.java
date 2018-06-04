@@ -232,6 +232,7 @@ public class FlattenedBoard implements BoardView, EntityContext {
 			return "null";
 		}
         String name = map[xy.getX()][xy.getY()].getClass().getSimpleName();
+
 		switch(name) {
 		case "BadBeast":
 			return "BadBeast";
@@ -243,6 +244,10 @@ public class FlattenedBoard implements BoardView, EntityContext {
 			return "GoodPlant";
 		case "Wall":
 			return "Wall";
+
+			case "MasterSquirrelBot":
+				return "MasterSquirrel";
+
 		case "MasterSquirrel":
 			return "MasterSquirrel";
 		case "MiniSquirrel":
@@ -250,8 +255,18 @@ public class FlattenedBoard implements BoardView, EntityContext {
 		case "HandOperatedMasterSquirrel":
 			return "HandOperatedMasterSquirrel";
 		default:
-			return null;
+			return "null";
 		}
+	}
+
+    @Override
+    public void spawnMini(int energy, MasterSquirrel masterSquirrel) {
+        this.board.spawnMini(energy,masterSquirrel);
+    }
+
+	@Override
+	public Entity getEntityAt(XY xy) {
+		return this.board.entityset.getEntityAt(xy);
 	}
 
 

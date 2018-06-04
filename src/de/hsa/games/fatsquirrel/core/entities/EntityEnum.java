@@ -46,6 +46,9 @@ public enum EntityEnum {
             case "GoodPlant": {
                 return goodPlant;
             }
+            case "MasterSquirrelBot":{
+                return masterSquirell;
+            }
             case "HandOperatedMasterSquirrel":{
                 return masterSquirell;
             }

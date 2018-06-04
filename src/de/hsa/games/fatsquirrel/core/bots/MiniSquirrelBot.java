@@ -1,6 +1,7 @@
 package de.hsa.games.fatsquirrel.core.bots;
 
 import de.hsa.games.fatsquirrel.botapi.ControllerContext;
+import de.hsa.games.fatsquirrel.core.entities.EntityContext;
 import de.hsa.games.fatsquirrel.core.entities.EntityEnum;
 import de.hsa.games.fatsquirrel.core.playerBased.MiniSquirrel;
 import de.hsa.games.fatsquirrel.core.utils.XY;
@@ -10,8 +11,8 @@ public class MiniSquirrelBot extends MiniSquirrel {
 		super(id, xy, energy, masterid);
 	}
 
-	public void nextstep() {
-
+	public void nextstep(EntityContext context) {
+		super.nextstep(context);
 	}
 
 	public class ControllerContextImpl implements ControllerContext{
@@ -28,6 +29,31 @@ public class MiniSquirrelBot extends MiniSquirrel {
 			int x = getPosition().getX() + 10;
 			int y = getPosition().getY() + 10;
 			return new XY (x,y);
+		}
+
+		@Override
+		public XY locate() {
+			return null;
+		}
+
+		@Override
+		public boolean isMine(XY xy) {
+			return false;
+		}
+
+		@Override
+		public void implode(int impactRadius) {
+
+		}
+
+		@Override
+		public XY directionOfMaster() {
+			return null;
+		}
+
+		@Override
+		public long getRemainingSteps() {
+			return 0;
 		}
 
 		@Override

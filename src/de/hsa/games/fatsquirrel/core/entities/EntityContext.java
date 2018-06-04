@@ -17,4 +17,6 @@ public interface EntityContext {
 	public void kill (Entity entity);
 	public void killandReplace (Entity entity);
 	public String getEntityType (XY xy);
+	public void spawnMini (int energy, MasterSquirrel masterSquirrel);
+	public Entity getEntityAt (XY xy);
 }

@@ -53,16 +53,19 @@ public class Board {
         for(int i=0; i<config.getPlayer();i++) {
             PlaceMasterBot();
         }
+
         /**
          * Kein Handoperated
 		for(int i=0; i<config.getPlayer();i++) {
 			PlaceHandOperatedMasterSquirrel();
 		}
-         */
+
 
 		for(int i=0; i<config.getBot();i++) {
 			PlaceMasterSquirrel();
 		}
+		 */
+
 		for(int i=0; i<config.getCountBB();i++) {
 			PlaceBadBeast();
 		}
@@ -112,7 +115,7 @@ public class Board {
 		entityset.addentity(badbeast);
 	}
 	public void PlaceMasterBot() {
-		MasterSquirrelBot masterSquirrelBot = new MasterSquirrelBot(counter, RandomPos(),this.entityset);
+		MasterSquirrelBot masterSquirrelBot = new MasterSquirrelBot(counter, RandomPos());
 		entityset.addentity(masterSquirrelBot);
 	}
 	
@@ -145,17 +148,21 @@ public class Board {
 			map[entity.getPosition().getX()][entity.getPosition().getY()]= entity;}
 		return map;
 	}
+
 	public void updateCharacter (EntityContext context) {
 		entityset.entitynextstep(context);
 	}
+
 	public Entity[] getEntityArray() {
 		return entityset.getEntityArray();
 	}
-	public void spawnMini(int sharedenergy, HandOperatedMasterSquirrel master) {
+
+	public void spawnMini(int sharedenergy, MasterSquirrel master) {
 		MiniSquirrel minisquirrel = new MiniSquirrel(Counter(), MiniPos(master.getPosition()), sharedenergy, master.getId());
 		entityset.addentity(minisquirrel);
 		master.updateenergy(-sharedenergy);
 	}
+
 	private XY ranMiniPos(XY masterpos) {
 		int x;
 		int y;

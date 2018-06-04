@@ -28,7 +28,7 @@ public class MasterSquirrel extends PlayerEntity {
 		context.tryMove(this, xyns.randomizer());
 		}
 	}
-private boolean Stun() {
+protected boolean Stun() {
 	if (paralized>=3) {
 	return true;
 	}else {
@@ -45,5 +45,10 @@ public void paralized() {
 			return true;
 		else
 			return false;
+	}
+
+	public void spawnMini(int sharedenergy, EntityContext context) {
+		context.spawnMini(10,this);
+		this.updateenergy(-sharedenergy);
 	}
 }
