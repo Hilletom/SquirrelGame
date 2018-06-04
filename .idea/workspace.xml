@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed36a707-6fe3-44d8-b759-e73d092ad0a0" name="Default" comment="...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logging.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/BoardConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/board/BoardConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/playerBased/MiniSquirrel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SquirrelGame/de/hsa/games/fatsquirrel/core/playerBased/MiniSquirrel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/BoardConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/MiniSquirrel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/MiniSquirrel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,20 +24,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyHtmlFormatter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Logging/MyHtmlFormatter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2445#2446#0" expanded="true" />
-                <element signature="e#2496#2497#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyLogger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/Logging/MyLogger.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/console/FxUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
-              <caret line="111" column="34" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="41" />
+              <caret line="111" column="34" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,11 +48,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandOperatedMasterSquirrel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HandOperatedMasterSquirrel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="183">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tactic1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/tactics/Tactic1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1465">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomTactic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/tactics/RandomTactic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -83,8 +78,8 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="275">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -279,6 +274,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="bots" type="462c0819:PsiDirectoryNode" />
+              <item name="tactics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquirrelGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquirrelGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fatsquirrel" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -434,7 +438,7 @@
       <workItem from="1527869469028" duration="1899000" />
       <workItem from="1527874881694" duration="57000" />
       <workItem from="1527882940128" duration="2309000" />
-      <workItem from="1528119306139" duration="1401000" />
+      <workItem from="1528119306139" duration="1697000" />
     </task>
     <task id="LOCAL-00001" summary="removed test">
       <created>1526738918788</created>
@@ -499,25 +503,39 @@
       <option name="project" value="LOCAL" />
       <updated>1527061681209</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="...">
+      <created>1528120834251</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528120834251</updated>
+    </task>
+    <task id="LOCAL-00011" summary="...">
+      <created>1528120846250</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528120846250</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29105000" />
+    <option name="totallyTimeSpent" value="29401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49934897" weight="0.32965517" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50065106" side_tool="true" weight="0.3048276" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50065106" side_tool="true" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.3048276" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.3048276" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32783642" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -587,8 +605,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/botapi/Bots/MiniSquirellBot.java" />
-    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/botapi/ControllerContextImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/MiniSquirrelBot.java" />
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/util/ui/consoletest/Command.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -850,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/board/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="275">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
@@ -872,17 +888,31 @@
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/console/FxUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
-          <caret line="111" column="34" lean-forward="true" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="41" />
+          <caret line="111" column="34" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/tactics/RandomTactic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/playerBased/HandOperatedMasterSquirrel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="183">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/hsa/games/fatsquirrel/core/bots/tactics/Tactic1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1465">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -903,7 +933,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -926,7 +956,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9.0</last-edited>
+          <last-edited>9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
