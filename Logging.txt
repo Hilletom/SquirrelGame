@@ -1,184 +1,184 @@
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 1 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 2 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 1 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 3 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 2 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 4 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 3 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 5 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 4 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 6 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 5 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 7 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 6 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 8 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 7 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 9 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 8 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 10 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 9 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 11 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 10 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 12 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 11 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 13 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 12 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 14 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 13 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 15 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 14 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 16 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 15 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 17 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 16 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 18 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 17 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 19 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 18 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 20 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 19 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 21 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 22 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 0 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 23 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 1 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 24 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 2 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 25 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 3 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 26 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 4 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 27 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 5 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 28 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 6 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 29 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 7 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 30 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 8 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 31 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 9 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 32 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 10 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 33 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 11 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 34 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 12 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 35 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 13 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 36 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 14 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 37 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 15 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 38 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 16 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 39 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 17 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 40 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 18 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 41 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 19 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 42 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 43 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 1 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 44 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 2 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 45 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 3 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 46 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 4 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 47 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 5 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 48 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 6 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 49 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 7 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 50 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 8 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 51 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 9 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 52 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 10 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 53 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 11 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 54 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 12 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 55 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 13 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 56 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 14 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 57 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 15 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 58 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 16 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 59 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 17 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 60 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 18 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 61 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 19 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 62 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 1 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 63 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 2 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 64 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 3 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 65 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 4 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 66 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 5 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 67 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 6 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 68 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 7 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 69 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 8 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 70 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 9 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 71 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 10 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 72 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 11 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 73 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 12 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 74 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 13 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 75 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 14 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 76 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 15 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 77 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 16 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 78 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 17 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 79 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 18 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 80 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 19 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 81 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 20 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 81 Type: de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot x: 3 y: 12 Energy: 1000
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 82 Type: de.hsa.games.fatsquirrel.core.entities.BadBeast x: 17 y: 9 Energy: -150
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 83 Type: de.hsa.games.fatsquirrel.core.entities.BadBeast x: 12 y: 14 Energy: -150
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 84 Type: de.hsa.games.fatsquirrel.core.entities.GoodBeast x: 11 y: 13 Energy: 200
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 85 Type: de.hsa.games.fatsquirrel.core.entities.GoodBeast x: 5 y: 17 Energy: 200
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 86 Type: de.hsa.games.fatsquirrel.core.entities.BadPlant x: 17 y: 4 Energy: -100
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 87 Type: de.hsa.games.fatsquirrel.core.entities.BadPlant x: 12 y: 5 Energy: -100
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 88 Type: de.hsa.games.fatsquirrel.core.entities.GoodPlant x: 12 y: 15 Energy: 100
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 89 Type: de.hsa.games.fatsquirrel.core.entities.GoodPlant x: 16 y: 7 Energy: 100
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 90 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 6 y: 11 Energy: -10
-Jun 04, 2018 7:39:55 AM de.hsa.games.fatsquirrel.core.board.EntitySet addentity
-FINER: New EntityID: 91 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 4 y: 8 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 1 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 2 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 1 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 3 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 2 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 4 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 3 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 5 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 4 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 6 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 5 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 7 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 6 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 8 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 7 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 9 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 8 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 10 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 9 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 11 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 10 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 12 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 11 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 13 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 12 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 14 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 13 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 15 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 14 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 16 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 15 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 17 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 16 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 18 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 17 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 19 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 18 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 20 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 19 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 21 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 22 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 0 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 23 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 1 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 24 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 2 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 25 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 3 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 26 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 4 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 27 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 5 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 28 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 6 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 29 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 7 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 30 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 8 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 31 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 9 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 32 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 10 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 33 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 11 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 34 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 12 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 35 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 13 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 36 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 14 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 37 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 15 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 38 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 16 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 39 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 17 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 40 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 18 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 41 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 19 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 42 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 0 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 43 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 1 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 44 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 2 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 45 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 3 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 46 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 4 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 47 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 5 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 48 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 6 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 49 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 7 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 50 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 8 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 51 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 9 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 52 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 10 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 53 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 11 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 54 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 12 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 55 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 13 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 56 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 14 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 57 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 15 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 58 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 16 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 59 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 17 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 60 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 18 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 61 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 19 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 62 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 1 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 63 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 2 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 64 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 3 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 65 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 4 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 66 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 5 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 67 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 6 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 68 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 7 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 69 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 8 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 70 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 9 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 71 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 10 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 72 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 11 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 73 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 12 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 74 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 13 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 75 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 14 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 76 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 15 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 77 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 16 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 78 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 17 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 79 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 18 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 80 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 19 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 81 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 20 y: 20 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 81 Type: de.hsa.games.fatsquirrel.core.bots.MasterSquirrelBot x: 16 y: 7 Energy: 1000
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 82 Type: de.hsa.games.fatsquirrel.core.entities.BadBeast x: 18 y: 1 Energy: -150
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 83 Type: de.hsa.games.fatsquirrel.core.entities.BadBeast x: 2 y: 7 Energy: -150
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 84 Type: de.hsa.games.fatsquirrel.core.entities.GoodBeast x: 5 y: 12 Energy: 200
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 85 Type: de.hsa.games.fatsquirrel.core.entities.GoodBeast x: 2 y: 17 Energy: 200
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 86 Type: de.hsa.games.fatsquirrel.core.entities.BadPlant x: 3 y: 8 Energy: -100
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 87 Type: de.hsa.games.fatsquirrel.core.entities.BadPlant x: 13 y: 14 Energy: -100
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 88 Type: de.hsa.games.fatsquirrel.core.entities.GoodPlant x: 16 y: 2 Energy: 100
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 89 Type: de.hsa.games.fatsquirrel.core.entities.GoodPlant x: 14 y: 8 Energy: 100
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 90 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 10 y: 16 Energy: -10
+Juni 04, 2018 3:59:28 NACHM. de.hsa.games.fatsquirrel.core.board.EntitySet addentity
+FEINER: New EntityID: 91 Type: de.hsa.games.fatsquirrel.core.entities.Wall x: 4 y: 11 Energy: -10
